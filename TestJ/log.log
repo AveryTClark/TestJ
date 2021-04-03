@@ -1,0 +1,2123 @@
+[2018/03/29-12:40:02.116] [qtp22790969-31] [INFO] [dku.job.slave]  - Loading recipes
+[2018/03/29-12:40:02.123] [qtp22790969-31] [DEBUG] [dku.flow.recipes]  - Building global graph
+[2018/03/29-12:40:02.215] [qtp22790969-31] [DEBUG] [dku.flow.recipes]  - Done getting global graph
+[2018/03/29-12:40:02.216] [qtp22790969-31] [INFO] [dku.job.slave]  - Recipes loaded, computing job details
+[2018/03/29-12:40:02.230] [qtp22790969-31] [INFO] [dku.flow.compute]  - Job output type: DATASET
+[2018/03/29-12:40:02.243] [qtp22790969-31] [INFO] [dku.flow.compute]  - computing job from target CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders partition NP
+[2018/03/29-12:40:02.249] [qtp22790969-31] [INFO] [dku.flow.compute]  - Refreshing CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders/NP with recipe compute_aam_bulk_extract_only_folders
+[2018/03/29-12:40:02.259] [qtp22790969-31] [INFO] [dku.flow.compute.op] activity compute_aam_bulk_extract_only_folders_<partition:NP> - Compute output partitions for subgraph, with target : CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders and partition: NP
+[2018/03/29-12:40:02.260] [qtp22790969-31] [INFO] [dku.flow.compute.op] activity compute_aam_bulk_extract_only_folders_<partition:NP> - Target CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders is not partitioned
+[2018/03/29-12:40:02.260] [qtp22790969-31] [INFO] [dku.flow.compute.op] activity compute_aam_bulk_extract_only_folders_<partition:NP> - Add output partition for CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders : NP
+[2018/03/29-12:40:02.260] [qtp22790969-31] [INFO] [dku.flow.compute] activity compute_aam_bulk_extract_only_folders_<partition:NP> - computed output partitions: {CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders=<partition:NP>}
+[2018/03/29-12:40:02.265] [qtp22790969-31] [INFO] [dku.flow.compute.ip] activity compute_aam_bulk_extract_only_folders_<partition:NP> - 0 dependency for CHRISTERADATAEXTRACTTEST.aam_bulk_extract
+[2018/03/29-12:40:02.265] [qtp22790969-31] [INFO] [dku.flow.compute.ip] activity compute_aam_bulk_extract_only_folders_<partition:NP> - source CHRISTERADATAEXTRACTTEST.aam_bulk_extract is not partitioned, including the global partition
+[2018/03/29-12:40:02.265] [qtp22790969-31] [INFO] [dku.flow.compute.ip] activity compute_aam_bulk_extract_only_folders_<partition:NP> - 0 dependency for CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered
+[2018/03/29-12:40:02.265] [qtp22790969-31] [INFO] [dku.flow.compute.ip] activity compute_aam_bulk_extract_only_folders_<partition:NP> - source CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered is not partitioned, including the global partition
+[2018/03/29-12:40:02.266] [qtp22790969-31] [INFO] [dku.flow.compute] activity compute_aam_bulk_extract_only_folders_<partition:NP> - computed input partitions : {CHRISTERADATAEXTRACTTEST.aam_bulk_extract=[<partition:NP>], CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered=[<partition:NP>]}
+[2018/03/29-12:40:02.269] [qtp22790969-31] [INFO] [dku.flow.compute]  - Before prune, job looks like:
+JOB
+  ACTIVITY ROOT
+    DEPS
+      ACTIVITY compute_aam_bulk_extract_only_folders_NP
+        SGID: compute_aam_bulk_extract_only_folders_NP
+        SRC: CHRISTERADATAEXTRACTTEST.aam_bulk_extract (partitions: NP)
+        SRC: CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered (partitions: NP)
+        DST: CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders (partition: NP)
+
+[2018/03/29-12:40:02.270] [qtp22790969-31] [INFO] [dku.flow.compute]  - After cleanup of implicit recipes, job looks like:
+JOB
+  ACTIVITY ROOT
+    DEPS
+      ACTIVITY compute_aam_bulk_extract_only_folders_NP
+        SGID: compute_aam_bulk_extract_only_folders_NP
+        SRC: CHRISTERADATAEXTRACTTEST.aam_bulk_extract (partitions: NP)
+        SRC: CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered (partitions: NP)
+        DST: CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders (partition: NP)
+
+[2018/03/29-12:40:02.271] [qtp22790969-31] [INFO] [dku.flow.compute]  - Job project: CHRISTERADATAEXTRACTTEST
+[2018/03/29-12:40:02.289] [qtp22790969-31] [INFO] [dku.flow.compute]  - Doing job pruning according to settings
+[2018/03/29-12:40:02.289] [qtp22790969-31] [INFO] [dku.flow.compute]  - not pruning activity, job type is NON_RECURSIVE_FORCED_BUILD
+[2018/03/29-12:40:02.290] [qtp22790969-31] [INFO] [dku.flow.compute]  - After prune, job looks like that
+[2018/03/29-12:40:02.290] [qtp22790969-31] [INFO] [dku.flow.compute]  - JOB
+  ACTIVITY ROOT
+    DEPS
+      ACTIVITY compute_aam_bulk_extract_only_folders_NP
+        SGID: compute_aam_bulk_extract_only_folders_NP
+        SRC: CHRISTERADATAEXTRACTTEST.aam_bulk_extract (partitions: NP)
+        SRC: CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered (partitions: NP)
+        DST: CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders (partition: NP)
+
+[2018/03/29-12:40:02.291] [qtp22790969-31] [INFO] [dku.flow.compute]  - Done building final job graph
+[2018/03/29-12:40:02.291] [qtp22790969-31] [INFO] [dku.job.slave]  - Done computing job data, dumping graph
+[2018/03/29-12:40:02.291] [qtp22790969-31] [INFO] [dku.job.slave]  - JOB
+  ACTIVITY ROOT
+    DEPS
+      ACTIVITY compute_aam_bulk_extract_only_folders_NP
+        SGID: compute_aam_bulk_extract_only_folders_NP
+        SRC: CHRISTERADATAEXTRACTTEST.aam_bulk_extract (partitions: NP)
+        SRC: CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered (partitions: NP)
+        DST: CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders (partition: NP)
+
+[2018/03/29-12:40:02.294] [qtp22790969-31] [INFO] [dku.job.slave]  - Job has the following sources: [{"projectKey":"CHRISTERADATAEXTRACTTEST","type":"DATASET","id":"aam_bulk_extract"},{"projectKey":"CHRISTERADATAEXTRACTTEST","type":"DATASET","id":"aam_trait_metadata_filtered"}]
+[2018/03/29-12:40:02.294] [qtp22790969-31] [INFO] [dku.job.slave]  - Trying to obtain grant: datasetread::READ_DATA::CHRISTERADATAEXTRACTTEST.aam_bulk_extract
+[2018/03/29-12:40:02.299] [qtp22790969-31] [INFO] [dku.job.slave]  - Trying to obtain grant: datasetread::READ_DATA::CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered
+[2018/03/29-12:40:02.312] [qtp22790969-31] [DEBUG] [dku.jobs]  - Command /pintercom/resolve_job processed in 271ms
+[2018/03/29-12:40:02.324] [qtp22790969-30] [INFO] [dku.job.slave]  - Job run started in kernel with pid 3964
+[2018/03/29-12:40:02.325] [qtp22790969-30] [INFO] [dku.flow.jobrunner]  - Creating 50 activity runner thread(s).
+[2018/03/29-12:40:02.326] [qtp22790969-30] [INFO] [dku.flow.jobrunner]  - Starting activity executor threads
+[2018/03/29-12:40:02.328] [ActivityExecutor-35] [INFO] [dku.flow.jobrunner]  - About to run compute_aam_bulk_extract_only_folders_NP
+[2018/03/29-12:40:02.333] [qtp22790969-30] [INFO] [dku.flow.jobrunner]  - Waiting for activity executor threads
+[2018/03/29-12:40:02.340] [ActivityExecutor-35] [INFO] [dku.flow.jobrunner] running compute_aam_bulk_extract_only_folders_NP - Allocated a slot for this activity!
+[2018/03/29-12:40:02.341] [ActivityExecutor-35] [INFO] [dku.flow.jobrunner] running compute_aam_bulk_extract_only_folders_NP - Run activity
+[2018/03/29-12:40:02.356] [ActivityExecutor-35] [INFO] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Executing default pre-activity lifecycle hook
+[2018/03/29-12:40:02.420] [ActivityExecutor-35] [DEBUG] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:02.429] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Build HDFSProvider conn=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db pWCR=/adobe_aam_parquet crSA=null crWSA=/apps/hive/warehouse/data_dev.db rpWSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:02.813] [ActivityExecutor-35] [DEBUG] [dku.hadoop] running compute_aam_bulk_extract_only_folders_NP - Initializing Hadoop FS with context UGI: dataiku (auth:SIMPLE) (login: dataiku (auth:SIMPLE))
+[2018/03/29-12:40:03.656] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built Hadoop FS for: null -> DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_1642457693_35, ugi=dataiku (auth:SIMPLE)]]
+[2018/03/29-12:40:03.766] [ActivityExecutor-35] [INFO] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Checking if sources are ready
+[2018/03/29-12:40:03.795] [ActivityExecutor-35] [DEBUG] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.798] [ActivityExecutor-35] [INFO] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Enumerating Filesystem dataset prefix=
+[2018/03/29-12:40:03.798] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Build HDFSProvider conn=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db pWCR=/adobe_aam_parquet crSA=null crWSA=/apps/hive/warehouse/data_dev.db rpWSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.799] [ActivityExecutor-35] [DEBUG] [dku.hadoop] running compute_aam_bulk_extract_only_folders_NP - Initializing Hadoop FS with context UGI: dataiku (auth:SIMPLE) (login: dataiku (auth:SIMPLE))
+[2018/03/29-12:40:03.828] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built Hadoop FS for: null -> DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_1642457693_35, ugi=dataiku (auth:SIMPLE)]]
+[2018/03/29-12:40:03.830] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Enumerating HDFS Filesystem from root : /apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.847] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - HDFS-enumerate depth=0 curContent=52
+[2018/03/29-12:40:03.854] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Done HDFS enumeration: nb_paths=52 total_size=40376386618
+[2018/03/29-12:40:03.865] [ActivityExecutor-35] [INFO] [dku.datasets.file] running compute_aam_bulk_extract_only_folders_NP - Building Filesystem handler config: {"connection":"filesystem_managed","path":"CHRISTERADATAEXTRACTTEST/aam_trait_metadata_filtered","notReadyIfEmpty":false,"filesSelectionRules":{"mode":"ALL","excludeRules":[],"includeRules":[],"explicitFiles":[]}}
+[2018/03/29-12:40:03.866] [ActivityExecutor-35] [INFO] [dku.datasets.ftplike] running compute_aam_bulk_extract_only_folders_NP - Enumerating Filesystem dataset prefix=
+[2018/03/29-12:40:03.869] [ActivityExecutor-35] [DEBUG] [dku.fs.local] running compute_aam_bulk_extract_only_folders_NP - Enumerating local filesystem prefix=/
+[2018/03/29-12:40:03.870] [ActivityExecutor-35] [DEBUG] [dku.fs.local] running compute_aam_bulk_extract_only_folders_NP - Enumeration done nb_paths=1 size=22485
+[2018/03/29-12:40:03.871] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Computing hashes to propagate BEFORE activity
+[2018/03/29-12:40:03.880] [ActivityExecutor-35] [DEBUG] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.880] [ActivityExecutor-35] [INFO] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Enumerating Filesystem dataset prefix=
+[2018/03/29-12:40:03.880] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Build HDFSProvider conn=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db pWCR=/adobe_aam_parquet crSA=null crWSA=/apps/hive/warehouse/data_dev.db rpWSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.881] [ActivityExecutor-35] [DEBUG] [dku.hadoop] running compute_aam_bulk_extract_only_folders_NP - Initializing Hadoop FS with context UGI: dataiku (auth:SIMPLE) (login: dataiku (auth:SIMPLE))
+[2018/03/29-12:40:03.910] [ActivityExecutor-35] [DEBUG] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built Hadoop FS for: null -> DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_1642457693_35, ugi=dataiku (auth:SIMPLE)]]
+[2018/03/29-12:40:03.913] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Enumerating HDFS Filesystem from root : /apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:03.919] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - HDFS-enumerate depth=0 curContent=52
+[2018/03/29-12:40:03.923] [ActivityExecutor-35] [INFO] [dku.fsproviders.hdfs] running compute_aam_bulk_extract_only_folders_NP - Done HDFS enumeration: nb_paths=52 total_size=40376386618
+[2018/03/29-12:40:03.929] [ActivityExecutor-35] [INFO] [dku.datasets.file] running compute_aam_bulk_extract_only_folders_NP - Building Filesystem handler config: {"connection":"filesystem_managed","path":"CHRISTERADATAEXTRACTTEST/aam_trait_metadata_filtered","notReadyIfEmpty":false,"filesSelectionRules":{"mode":"ALL","excludeRules":[],"includeRules":[],"explicitFiles":[]}}
+[2018/03/29-12:40:03.929] [ActivityExecutor-35] [INFO] [dku.datasets.ftplike] running compute_aam_bulk_extract_only_folders_NP - Enumerating Filesystem dataset prefix=
+[2018/03/29-12:40:03.931] [ActivityExecutor-35] [DEBUG] [dku.fs.local] running compute_aam_bulk_extract_only_folders_NP - Enumerating local filesystem prefix=/
+[2018/03/29-12:40:03.932] [ActivityExecutor-35] [DEBUG] [dku.fs.local] running compute_aam_bulk_extract_only_folders_NP - Enumeration done nb_paths=1 size=22485
+[2018/03/29-12:40:03.933] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Recorded 2 hashes before activity run
+[2018/03/29-12:40:03.934] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Building recipe runner of type
+[2018/03/29-12:40:03.959] [ActivityExecutor-35] [INFO] [dku.recipe.join] running compute_aam_bulk_extract_only_folders_NP - SET PAYLOAD: {
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "INNER",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "trait",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "sid",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 1,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "filename",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "filename",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "aamid_hash",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "trait",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "region_code",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "timestamp_as_date",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "timestampNoTzAsDate": false,
+            "name": "aamid_hash",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "trait",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "region_code",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "timestamp_as_date",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "name",
+            "type": "string",
+            "maxLength": -1
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "enableAutoCastInJoinConditions": false
+}
+[2018/03/29-12:40:03.993] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:03.999] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:04.044] [ActivityExecutor-35] [INFO] [dku.recipes.engines] running compute_aam_bulk_extract_only_folders_NP - Resolved preferences projectKey=CHRISTERADATAEXTRACTTEST recipeType=join global={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} project={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} pplusg={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} recipe=null resolved={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}}
+[2018/03/29-12:40:04.044] [ActivityExecutor-35] [INFO] [dku.recipes.visualsql] running compute_aam_bulk_extract_only_folders_NP - Auto-selected recipe engine: DSS
+[2018/03/29-12:40:04.067] [ActivityExecutor-35] [INFO] [dku.recipes.engines] running compute_aam_bulk_extract_only_folders_NP - Resolved preferences projectKey=CHRISTERADATAEXTRACTTEST recipeType=join global={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} project={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} pplusg={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} recipe=null resolved={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}}
+[2018/03/29-12:40:04.070] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:04.076] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:04.088] [ActivityExecutor-35] [INFO] [dku.recipes.visualsql] running compute_aam_bulk_extract_only_folders_NP - Auto-selected recipe engine: DSS
+[2018/03/29-12:40:04.090] [ActivityExecutor-35] [INFO] [dku.recipes.engines] running compute_aam_bulk_extract_only_folders_NP - Resolved preferences projectKey=CHRISTERADATAEXTRACTTEST recipeType=join global={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} project={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} pplusg={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}} recipe=null resolved={"forbiddenEngines":[],"enginesPreferenceOrder":[],"forbiddenByRecipeType":{},"preferenceByRecipeType":{}}
+[2018/03/29-12:40:04.093] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:04.103] [ActivityExecutor-35] [INFO] [com.dataiku.dip.impala.ImpalaConfigurator] running compute_aam_bulk_extract_only_folders_NP - Impala support is disabled
+[2018/03/29-12:40:04.115] [ActivityExecutor-35] [INFO] [dku.recipes.visualsql] running compute_aam_bulk_extract_only_folders_NP - Auto-selected recipe engine: DSS
+[2018/03/29-12:40:04.119] [ActivityExecutor-35] [DEBUG] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:04.121] [ActivityExecutor-35] [DEBUG] [dku.datasets.hdfs] running compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:04.177] [ActivityExecutor-35] [INFO] [dku.recipe.visual] running compute_aam_bulk_extract_only_folders_NP - Selected engine type: DSS
+[2018/03/29-12:40:04.177] [ActivityExecutor-35] [INFO] [dku.recipe.join] running compute_aam_bulk_extract_only_folders_NP - Using H2 implementation
+[2018/03/29-12:40:04.203] [ActivityExecutor-35] [INFO] [dku.connections.sql.provider] running compute_aam_bulk_extract_only_folders_NP - Connecting to jdbc:h2:/Dataiku/jobs/CHRISTERADATAEXTRACTTEST/Build_aam_bulk_extract_only_folders_2018-03-29T12-39-58.622/compute_aam_bulk_extract_only_folders_NP/dataset-to-h2/s7YjA5IRQufOjIfoKzGT/dataset with props: {}
+[2018/03/29-12:40:04.204] [ActivityExecutor-35] [DEBUG] [dku.connections.sql.provider] running compute_aam_bulk_extract_only_folders_NP - Driver version 1.4
+[2018/03/29-12:40:04.364] [ActivityExecutor-35] [INFO] [dku.connections.sql.provider] running compute_aam_bulk_extract_only_folders_NP - Driver H2 JDBC Driver (JDBC 4.0) 1.4.195 (2017-04-23) (1.4)
+[2018/03/29-12:40:04.365] [ActivityExecutor-35] [INFO] [dku.connections.sql.provider] running compute_aam_bulk_extract_only_folders_NP - Database H2 1.4.195 (2017-04-23) (1.4) rowSize=0 stmts=0
+[2018/03/29-12:40:04.365] [ActivityExecutor-35] [DEBUG] [dku.connections.sql.provider] running compute_aam_bulk_extract_only_folders_NP - Set autocommit=false on conn=h2connection
+[2018/03/29-12:40:04.368] [ActivityExecutor-35] [INFO] [dku.h2] running compute_aam_bulk_extract_only_folders_NP - Init H2 recipe runner
+[2018/03/29-12:40:04.372] [ActivityExecutor-35] [INFO] [dku.datasets.file] running compute_aam_bulk_extract_only_folders_NP - Building Filesystem handler config: {"connection":"filesystem_managed","path":"CHRISTERADATAEXTRACTTEST/aam_bulk_extract_only_folders","notReadyIfEmpty":false,"filesSelectionRules":{"mode":"ALL","excludeRules":[],"includeRules":[],"explicitFiles":[]}}
+[2018/03/29-12:40:04.372] [ActivityExecutor-35] [INFO] [dku.h2] running compute_aam_bulk_extract_only_folders_NP - Write mode : OVERWRITE
+[2018/03/29-12:40:04.373] [ActivityExecutor-35] [INFO] [dku.datasets.ftplike] running compute_aam_bulk_extract_only_folders_NP - Clear partitions
+[2018/03/29-12:40:04.375] [ActivityExecutor-35] [INFO] [dku.datasets.ftplike] running compute_aam_bulk_extract_only_folders_NP - Clearing partition as a folder : 'NP'
+[2018/03/29-12:40:04.377] [ActivityExecutor-35] [INFO] [dku.datasets.ftplike] running compute_aam_bulk_extract_only_folders_NP - Done clearing partition 'NP'
+[2018/03/29-12:40:04.378] [ActivityExecutor-35] [INFO] [dku.h2] running compute_aam_bulk_extract_only_folders_NP - Cleared FS dataset. Write mode : APPEND
+[2018/03/29-12:40:04.378] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Recipe runner built, will use 1 thread(s)
+[2018/03/29-12:40:04.379] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Starting execution thread: com.dataiku.dip.dataflow.exec.join.JoinRecipeRunner@1bf61a56
+[2018/03/29-12:40:04.380] [ActivityExecutor-35] [DEBUG] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Execution threads started, waiting for activity end
+[2018/03/29-12:40:04.380] [FRT-95-FlowRunnable] [INFO] [dku.flow.activity] act.compute_aam_bulk_extract_only_folders_NP - Run thread for activity compute_aam_bulk_extract_only_folders_NP starting
+[2018/03/29-12:40:04.380] [FRT-95-FlowRunnable] [INFO] [dku.recipe.visual] act.compute_aam_bulk_extract_only_folders_NP - Selected executor: com.dataiku.dip.dataflow.exec.join.JoinRecipeRunner$1
+[2018/03/29-12:40:04.392] [FRT-95-FlowRunnable] [INFO] [dku.h2loader] act.compute_aam_bulk_extract_only_folders_NP - Dumping dataset to CSV for H2...
+[2018/03/29-12:40:04.394] [FRT-95-FlowRunnable] [DEBUG] [dku.datasets.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Built HDFS dataset handler dataset=CHRISTERADATAEXTRACTTEST.aam_bulk_extract connection=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db resolvedPath=/adobe_aam_parquet connRootSA=nullconnRootWithinSA=/apps/hive/warehouse/data_dev.db configuredRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet effectiveRootPathWithinSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:04.395] [FRT-95-FlowRunnable] [INFO] [dku.datasets.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Enumerating Filesystem dataset prefix=
+[2018/03/29-12:40:04.395] [FRT-95-FlowRunnable] [DEBUG] [dku.fsproviders.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Build HDFSProvider conn=hive_data_dev cpr=/apps/hive/warehouse/data_dev.db pWCR=/adobe_aam_parquet crSA=null crWSA=/apps/hive/warehouse/data_dev.db rpWSA=/apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:04.396] [FRT-95-FlowRunnable] [DEBUG] [dku.hadoop] act.compute_aam_bulk_extract_only_folders_NP - Initializing Hadoop FS with context UGI: dataiku (auth:SIMPLE) (login: dataiku (auth:SIMPLE))
+[2018/03/29-12:40:04.427] [FRT-95-FlowRunnable] [DEBUG] [dku.fsproviders.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Built Hadoop FS for: null -> DFS[DFSClient[clientName=DFSClient_NONMAPREDUCE_1642457693_35, ugi=dataiku (auth:SIMPLE)]]
+[2018/03/29-12:40:04.429] [FRT-95-FlowRunnable] [INFO] [dku.fsproviders.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Enumerating HDFS Filesystem from root : /apps/hive/warehouse/data_dev.db/adobe_aam_parquet
+[2018/03/29-12:40:04.435] [FRT-95-FlowRunnable] [INFO] [dku.fsproviders.hdfs] act.compute_aam_bulk_extract_only_folders_NP - HDFS-enumerate depth=0 curContent=52
+[2018/03/29-12:40:04.437] [FRT-95-FlowRunnable] [INFO] [dku.fsproviders.hdfs] act.compute_aam_bulk_extract_only_folders_NP - Done HDFS enumeration: nb_paths=52 total_size=40376386618
+[2018/03/29-12:40:04.437] [FRT-95-FlowRunnable] [INFO] [dku.input.push] act.compute_aam_bulk_extract_only_folders_NP - USTP: push selection.method=FULL records=-1 ratio=0.02 col=null
+[2018/03/29-12:40:04.440] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Run Parquet format extractor without limit
+[2018/03/29-12:40:04.447] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000000_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:04.525] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:04.570] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.044] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.048] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.252] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=4
+[2018/03/29-12:40:05.252] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=4 totalRecords=4
+[2018/03/29-12:40:05.254] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000001_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.279] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.281] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.291] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.291] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.298] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=6
+[2018/03/29-12:40:05.298] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=6 totalRecords=6
+[2018/03/29-12:40:05.299] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000003_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.323] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.324] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.331] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.331] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.338] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=7
+[2018/03/29-12:40:05.339] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=7 totalRecords=7
+[2018/03/29-12:40:05.340] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000004_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.367] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.369] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.376] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.376] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.390] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=77
+[2018/03/29-12:40:05.390] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=77 totalRecords=77
+[2018/03/29-12:40:05.392] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000005_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.421] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.423] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.429] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.430] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.437] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=120
+[2018/03/29-12:40:05.437] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=120 totalRecords=120
+[2018/03/29-12:40:05.438] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000006_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.461] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.463] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.469] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.471] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.478] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=181
+[2018/03/29-12:40:05.478] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=181 totalRecords=181
+[2018/03/29-12:40:05.479] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000007_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.502] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.504] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.511] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.512] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.523] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=241
+[2018/03/29-12:40:05.523] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=241 totalRecords=241
+[2018/03/29-12:40:05.525] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000008_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.558] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.561] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.568] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.569] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.596] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=1229
+[2018/03/29-12:40:05.596] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=1229 totalRecords=1229
+[2018/03/29-12:40:05.598] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000009_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.624] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.626] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.631] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.632] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.661] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=2281
+[2018/03/29-12:40:05.661] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=2281 totalRecords=2281
+[2018/03/29-12:40:05.663] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000010_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.686] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.688] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.695] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.695] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.715] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=3235
+[2018/03/29-12:40:05.715] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=3235 totalRecords=3235
+[2018/03/29-12:40:05.717] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000011_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.741] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.743] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.749] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.749] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.780] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=4485
+[2018/03/29-12:40:05.780] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=4485 totalRecords=4485
+[2018/03/29-12:40:05.782] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000012_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.805] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.807] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.814] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.814] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.829] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=5587
+[2018/03/29-12:40:05.830] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=5587 totalRecords=5587
+[2018/03/29-12:40:05.832] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000013_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.865] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.867] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.874] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.874] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.889] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=6818
+[2018/03/29-12:40:05.890] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=6818 totalRecords=6818
+[2018/03/29-12:40:05.891] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000014_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.914] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.917] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.923] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.923] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.938] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=8079
+[2018/03/29-12:40:05.939] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=8079 totalRecords=8079
+[2018/03/29-12:40:05.940] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000015_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:05.973] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:05.975] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:05.981] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:05.981] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:05.993] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=9219
+[2018/03/29-12:40:05.994] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=9219 totalRecords=9219
+[2018/03/29-12:40:05.996] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000016_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.024] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.026] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.032] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.033] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.044] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=10239
+[2018/03/29-12:40:06.045] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=10239 totalRecords=10239
+[2018/03/29-12:40:06.046] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000017_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.075] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.077] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.082] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.082] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.094] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=11223
+[2018/03/29-12:40:06.095] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=11223 totalRecords=11223
+[2018/03/29-12:40:06.096] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000018_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.125] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.127] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.133] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.133] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.145] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=12216
+[2018/03/29-12:40:06.145] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=12216 totalRecords=12216
+[2018/03/29-12:40:06.147] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000019_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.175] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.177] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.183] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.183] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.198] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=13202
+[2018/03/29-12:40:06.199] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=13202 totalRecords=13202
+[2018/03/29-12:40:06.200] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000020_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.222] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.224] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.230] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.230] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.286] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=27766
+[2018/03/29-12:40:06.287] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=27766 totalRecords=27766
+[2018/03/29-12:40:06.289] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000021_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.318] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.323] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.329] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.329] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.385] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=42062
+[2018/03/29-12:40:06.386] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=42062 totalRecords=42062
+[2018/03/29-12:40:06.389] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000022_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.411] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.413] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.419] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.420] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.476] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=55440
+[2018/03/29-12:40:06.476] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=55440 totalRecords=55440
+[2018/03/29-12:40:06.478] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000023_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.511] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.513] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.519] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.520] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:06.600] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=69514
+[2018/03/29-12:40:06.600] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=69514 totalRecords=69514
+[2018/03/29-12:40:06.602] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000024_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:06.632] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:06.634] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:06.640] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:06.640] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:07.325] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:07.333] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:08.467] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=612714
+[2018/03/29-12:40:08.468] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=612714 totalRecords=612714
+[2018/03/29-12:40:08.469] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000025_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:08.488] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:08.490] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:08.494] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:08.494] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:10.187] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=1133605
+[2018/03/29-12:40:10.187] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=1133605 totalRecords=1133605
+[2018/03/29-12:40:10.189] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000026_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:10.209] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:10.210] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:10.216] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:10.217] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:11.697] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=1625231
+[2018/03/29-12:40:11.697] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=1625231 totalRecords=1625231
+[2018/03/29-12:40:11.699] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000027_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:11.719] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:11.721] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:11.725] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:11.725] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:12.333] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:12.343] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:13.277] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=2148086
+[2018/03/29-12:40:13.278] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=2148086 totalRecords=2148086
+[2018/03/29-12:40:13.279] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000028_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:13.301] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:13.303] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:13.308] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:13.309] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:17.343] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:17.351] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:18.308] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=3766676
+[2018/03/29-12:40:18.308] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:18.314] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:18.315] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:20.346] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=4447033
+[2018/03/29-12:40:20.346] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=4447033 totalRecords=4447033
+[2018/03/29-12:40:20.347] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000029_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:20.368] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:20.369] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:20.374] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:20.374] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:22.351] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:22.361] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:25.305] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=6069868
+[2018/03/29-12:40:25.305] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:25.311] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:25.311] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:27.081] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=6671608
+[2018/03/29-12:40:27.081] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=6671608 totalRecords=6671608
+[2018/03/29-12:40:27.082] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000030_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:27.103] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:27.105] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:27.110] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:27.111] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:27.361] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:27.369] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:32.369] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:32.378] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:32.797] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=8294443
+[2018/03/29-12:40:32.797] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:32.803] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:32.803] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:34.233] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=8772251
+[2018/03/29-12:40:34.233] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=8772251 totalRecords=8772251
+[2018/03/29-12:40:34.234] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000031_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:34.254] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:34.255] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:34.261] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:34.261] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:37.379] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:37.388] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:39.355] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=10376817
+[2018/03/29-12:40:39.355] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:39.361] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:39.361] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:41.208] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=10978347
+[2018/03/29-12:40:41.208] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=10978347 totalRecords=10978347
+[2018/03/29-12:40:41.210] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000032_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:41.239] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:41.241] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:41.246] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:41.247] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:42.388] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:42.396] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:46.340] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=12631128
+[2018/03/29-12:40:46.340] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:46.346] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:46.346] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:47.396] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:47.404] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:47.636] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=13075981
+[2018/03/29-12:40:47.636] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=13075981 totalRecords=13075981
+[2018/03/29-12:40:47.638] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000033_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:47.660] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:47.661] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:47.667] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:47.667] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:52.404] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:52.413] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:52.607] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=14736081
+[2018/03/29-12:40:52.607] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:52.613] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:52.613] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:53.725] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=15114781
+[2018/03/29-12:40:53.725] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=15114781 totalRecords=15114781
+[2018/03/29-12:40:53.727] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000034_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:53.755] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:53.757] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:53.761] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:53.761] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:40:57.414] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:40:57.422] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:40:59.448] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=17027979
+[2018/03/29-12:40:59.449] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=17027979 totalRecords=17027979
+[2018/03/29-12:40:59.450] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000035_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:40:59.470] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:40:59.471] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:40:59.475] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:40:59.475] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:02.422] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:02.431] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:04.514] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=18680760
+[2018/03/29-12:41:04.514] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:04.525] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:04.525] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:05.675] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=19048204
+[2018/03/29-12:41:05.675] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=19048204 totalRecords=19048204
+[2018/03/29-12:41:05.677] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000036_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:41:05.696] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:41:05.700] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:05.707] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:05.707] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:07.432] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:07.440] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:10.754] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=20708304
+[2018/03/29-12:41:10.754] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:10.760] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:10.760] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:12.441] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:12.450] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:15.849] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=22368404
+[2018/03/29-12:41:15.849] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:15.860] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:15.861] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:17.450] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:18.383] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:21.177] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=24028504
+[2018/03/29-12:41:21.178] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:21.188] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:21.188] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:23.452] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:23.460] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:26.608] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=25660780
+[2018/03/29-12:41:26.608] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=25660780 totalRecords=25660780
+[2018/03/29-12:41:26.614] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000037_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:41:26.633] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:41:26.636] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:26.641] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:26.641] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:28.461] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:28.469] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:31.975] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=27320880
+[2018/03/29-12:41:31.975] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:31.981] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:31.982] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:33.470] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:33.479] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:37.893] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=28973661
+[2018/03/29-12:41:37.893] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:37.900] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:37.900] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:38.479] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:38.487] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:42.987] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=30632215
+[2018/03/29-12:41:42.987] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:42.996] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:42.996] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:43.487] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:43.495] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:47.388] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=32092923
+[2018/03/29-12:41:47.389] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=32092923 totalRecords=32092923
+[2018/03/29-12:41:47.390] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000038_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:41:47.412] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:41:47.414] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:47.419] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:47.419] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:48.495] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:48.504] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:52.466] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=33745704
+[2018/03/29-12:41:52.466] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:52.472] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:52.472] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:53.505] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:53.512] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:41:57.764] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=35405804
+[2018/03/29-12:41:57.764] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:41:57.770] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:41:57.770] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:41:58.513] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:41:58.520] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:03.256] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=37064358
+[2018/03/29-12:42:03.256] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:03.263] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:03.263] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:03.520] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:03.531] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:06.901] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=38192123
+[2018/03/29-12:42:06.901] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=38192123 totalRecords=38192123
+[2018/03/29-12:42:06.903] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000039_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:06.930] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:06.932] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:06.938] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:06.938] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:08.532] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:08.539] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:12.073] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=39850677
+[2018/03/29-12:42:12.073] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:12.079] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:12.079] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:13.539] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:13.547] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:17.070] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=41510777
+[2018/03/29-12:42:17.070] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:17.076] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:17.076] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:18.547] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:18.554] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:22.057] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=43170877
+[2018/03/29-12:42:22.057] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:22.063] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:22.063] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:23.554] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:23.563] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:26.352] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=44579274
+[2018/03/29-12:42:26.353] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=44579274 totalRecords=44579274
+[2018/03/29-12:42:26.354] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000040_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:26.373] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:26.375] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:26.379] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:26.379] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:28.564] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:28.571] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:29.058] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=45435872
+[2018/03/29-12:42:29.058] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=45435872 totalRecords=45435872
+[2018/03/29-12:42:29.060] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000041_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:29.078] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:29.079] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:29.084] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:29.084] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:31.830] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=46302692
+[2018/03/29-12:42:31.830] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=46302692 totalRecords=46302692
+[2018/03/29-12:42:31.831] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000042_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:31.851] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:31.852] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:31.856] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:31.856] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:33.571] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:33.579] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:34.592] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=47171462
+[2018/03/29-12:42:34.592] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=47171462 totalRecords=47171462
+[2018/03/29-12:42:34.594] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000043_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:34.614] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:34.617] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:34.622] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:34.622] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:37.120] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=48014590
+[2018/03/29-12:42:37.120] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=48014590 totalRecords=48014590
+[2018/03/29-12:42:37.122] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000044_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:42:37.141] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:42:37.142] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:37.149] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:37.149] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:38.579] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:38.586] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:41.731] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=49474690
+[2018/03/29-12:42:41.731] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:41.739] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:41.739] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:43.586] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:43.593] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:46.803] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=51164790
+[2018/03/29-12:42:46.803] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:46.810] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:46.810] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:48.593] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:48.602] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:51.970] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=52854890
+[2018/03/29-12:42:51.970] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:51.977] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:51.977] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:53.603] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:53.610] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:42:57.031] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=54549133
+[2018/03/29-12:42:57.031] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:42:57.038] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:42:57.039] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:42:58.610] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:42:58.619] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:02.130] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=56243376
+[2018/03/29-12:43:02.131] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:02.138] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:02.138] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:03.619] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:03.629] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:08.086] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=57933476
+[2018/03/29-12:43:08.087] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:08.094] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:08.094] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:08.629] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:08.637] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:13.365] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=59623576
+[2018/03/29-12:43:13.365] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:13.372] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:13.372] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:13.638] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:14.284] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:18.713] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=61317819
+[2018/03/29-12:43:18.713] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:18.720] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:18.720] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:19.362] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:19.373] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:23.933] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=63007919
+[2018/03/29-12:43:23.933] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:23.939] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:23.939] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:24.405] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:24.412] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:29.233] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=64728251
+[2018/03/29-12:43:29.234] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=64728251 totalRecords=64728251
+[2018/03/29-12:43:29.238] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000045_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:43:29.257] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:43:29.260] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:29.265] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:29.265] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:29.412] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:29.419] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:33.860] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=66195761
+[2018/03/29-12:43:33.861] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:33.867] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:33.867] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:34.474] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:34.483] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:38.990] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=67885861
+[2018/03/29-12:43:38.990] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:39.001] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:39.001] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:39.483] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:39.492] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:44.191] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=69580104
+[2018/03/29-12:43:44.192] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:44.205] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:44.205] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:44.492] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:44.500] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:49.325] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=71270204
+[2018/03/29-12:43:49.325] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:49.337] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:49.338] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:49.501] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:49.508] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:54.509] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:54.517] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:43:54.953] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=72964733
+[2018/03/29-12:43:54.953] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:43:54.964] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:43:54.964] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:43:59.517] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:43:59.527] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:00.793] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=74658976
+[2018/03/29-12:44:00.793] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:00.804] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:00.805] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:04.527] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:06.092] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=76353219
+[2018/03/29-12:44:06.093] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:06.099] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:06.100] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:06.243] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:11.243] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:11.252] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:11.561] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=78047748
+[2018/03/29-12:44:11.561] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:11.568] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:11.568] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:16.252] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:16.261] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:16.650] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=79741991
+[2018/03/29-12:44:16.650] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:16.657] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:16.657] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:20.909] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=81122833
+[2018/03/29-12:44:20.909] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing DSS stream, dssSplitRecords=81122833 totalRecords=81122833
+[2018/03/29-12:44:20.911] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Extracting Parquet input:/apps/hive/warehouse/data_dev.db/adobe_aam_parquet/000046_0 with ugi: dataiku (auth:SIMPLE)
+[2018/03/29-12:44:20.931] [FRT-95-FlowRunnable] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] act.compute_aam_bulk_extract_only_folders_NP - Total input paths to process : 1
+[2018/03/29-12:44:20.932] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:20.938] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:20.938] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:21.262] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:21.268] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:25.277] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=82590343
+[2018/03/29-12:44:25.277] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:25.284] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:25.284] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:26.283] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:26.291] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:30.464] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=84284872
+[2018/03/29-12:44:30.464] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:30.471] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:30.471] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:31.291] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:31.298] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:35.454] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=85974972
+[2018/03/29-12:44:35.454] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:35.461] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:35.461] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:36.298] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:36.305] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:40.576] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=87665072
+[2018/03/29-12:44:40.576] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:40.587] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:40.588] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:41.305] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:41.311] [Thread-17] [INFO] [dku.job.slave]  - Status update sent
+[2018/03/29-12:44:46.054] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Done processing Hadoop split, dssSplitRecords=89359315
+[2018/03/29-12:44:46.055] [FRT-95-FlowRunnable] [INFO] [dku.formats.parquet] act.compute_aam_bulk_extract_only_folders_NP - Processing Hadoop split
+[2018/03/29-12:44:46.061] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Input Parquet MessageType: 
+message hive_schema {
+  optional binary aamid_hash (UTF8);
+  optional binary trait (UTF8);
+  optional binary epoch_timestamp (UTF8);
+  optional binary region_code (UTF8);
+  optional binary timestamp_as_date (UTF8);
+  optional binary timestamp_year (UTF8);
+  optional binary timestamp_month (UTF8);
+  optional binary timestamp_day (UTF8);
+  optional binary ingestion_timestamp (UTF8);
+  optional binary filename (UTF8);
+}
+
+[2018/03/29-12:44:46.061] [FRT-95-FlowRunnable] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] act.compute_aam_bulk_extract_only_folders_NP - Detected Parquet flavor: HIVE
+[2018/03/29-12:44:46.312] [Thread-17] [INFO] [dku.job.slave]  - Sending status update
+[2018/03/29-12:44:50.851] [FRT-95-FlowRunnable] [DEBUG] [dku.connections.sql.provider] act.compute_aam_bulk_extract_only_folders_NP - Close conn=h2connection
+[2018/03/29-12:44:50.854] [FRT-95-FlowRunnable] [DEBUG] [dku.connections.sql.provider] act.compute_aam_bulk_extract_only_folders_NP - Close conn=h2connection
+[2018/03/29-12:44:50.854] [FRT-95-FlowRunnable] [INFO] [dku.flow.activity] act.compute_aam_bulk_extract_only_folders_NP - Run thread failed for activity compute_aam_bulk_extract_only_folders_NP
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.write(BufferedWriter.java:230)
+	at java.io.Writer.write(Writer.java:157)
+	at java.io.Writer.append(Writer.java:227)
+	at com.dataiku.dip.output.CSVOutputFormatter.appendUNIXStyle(CSVOutputFormatter.java:64)
+	at com.dataiku.dip.output.CSVOutputFormatter.appendFieldToLine(CSVOutputFormatter.java:201)
+	at com.dataiku.dip.output.CSVOutputFormatter.format(CSVOutputFormatter.java:183)
+	at com.dataiku.dip.output.StringOutputFormatter.format(StringOutputFormatter.java:32)
+	at com.dataiku.dip.output.OutputStreamOutputWriter.emitRow(OutputStreamOutputWriter.java:32)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader$AbortableProcessorOutput.emitRow(DatasetToH2Loader.java:277)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor$1.run(ParquetFormatExtractor.java:135)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor$1.run(ParquetFormatExtractor.java:106)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1866)
+	at com.dataiku.dip.util.HadoopUtils.fixedUpDoAs(HadoopUtils.java:36)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor.run(ParquetFormatExtractor.java:106)
+	at com.dataiku.dip.datasets.AbstractSingleThreadPusher.pushSplits(AbstractSingleThreadPusher.java:180)
+	at com.dataiku.dip.datasets.UniversalSingleThreadPusher.push(UniversalSingleThreadPusher.java:234)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader.dumpToCSV(DatasetToH2Loader.java:136)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader.load(DatasetToH2Loader.java:164)
+	at com.dataiku.dip.dataflow.exec.h2.H2RecipeRunner.run(H2RecipeRunner.java:146)
+	at com.dataiku.dip.dataflow.exec.MultiEngineRecipeRunner.run(MultiEngineRecipeRunner.java:191)
+	at com.dataiku.dip.dataflow.jobrunner.ActivityRunner$FlowRunnableThread.run(ActivityRunner.java:352)
+[2018/03/29-12:44:50.888] [ActivityExecutor-35] [INFO] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - activity is finished
+[2018/03/29-12:44:50.888] [ActivityExecutor-35] [ERROR] [dku.flow.activity] running compute_aam_bulk_extract_only_folders_NP - Activity failed
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:326)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.write(BufferedWriter.java:230)
+	at java.io.Writer.write(Writer.java:157)
+	at java.io.Writer.append(Writer.java:227)
+	at com.dataiku.dip.output.CSVOutputFormatter.appendUNIXStyle(CSVOutputFormatter.java:64)
+	at com.dataiku.dip.output.CSVOutputFormatter.appendFieldToLine(CSVOutputFormatter.java:201)
+	at com.dataiku.dip.output.CSVOutputFormatter.format(CSVOutputFormatter.java:183)
+	at com.dataiku.dip.output.StringOutputFormatter.format(StringOutputFormatter.java:32)
+	at com.dataiku.dip.output.OutputStreamOutputWriter.emitRow(OutputStreamOutputWriter.java:32)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader$AbortableProcessorOutput.emitRow(DatasetToH2Loader.java:277)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor$1.run(ParquetFormatExtractor.java:135)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor$1.run(ParquetFormatExtractor.java:106)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1866)
+	at com.dataiku.dip.util.HadoopUtils.fixedUpDoAs(HadoopUtils.java:36)
+	at com.dataiku.dip.input.formats.parquet.ParquetFormatExtractor.run(ParquetFormatExtractor.java:106)
+	at com.dataiku.dip.datasets.AbstractSingleThreadPusher.pushSplits(AbstractSingleThreadPusher.java:180)
+	at com.dataiku.dip.datasets.UniversalSingleThreadPusher.push(UniversalSingleThreadPusher.java:234)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader.dumpToCSV(DatasetToH2Loader.java:136)
+	at com.dataiku.dip.dataflow.exec.h2.DatasetToH2Loader.load(DatasetToH2Loader.java:164)
+	at com.dataiku.dip.dataflow.exec.h2.H2RecipeRunner.run(H2RecipeRunner.java:146)
+	at com.dataiku.dip.dataflow.exec.MultiEngineRecipeRunner.run(MultiEngineRecipeRunner.java:191)
+	at com.dataiku.dip.dataflow.jobrunner.ActivityRunner$FlowRunnableThread.run(ActivityRunner.java:352)
+[2018/03/29-12:44:50.890] [ActivityExecutor-35] [INFO] 

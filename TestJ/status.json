@@ -1,0 +1,232 @@
+{
+  "activities": {
+    "compute_aam_bulk_extract_only_folders_NP": {
+      "activityType": "RECIPE",
+      "pipelineRecipes": [],
+      "recipeName": "compute_aam_bulk_extract_only_folders",
+      "recipeType": "join",
+      "activityId": "compute_aam_bulk_extract_only_folders_NP",
+      "message": "Setting temporary database",
+      "sources": [
+        {
+          "type": "DATASET",
+          "id": "CHRISTERADATAEXTRACTTEST.aam_bulk_extract",
+          "statsType": "NONE",
+          "totalReadBytes": -1,
+          "totalReadRecords": -1,
+          "partitions": [
+            {
+              "id": "NP",
+              "totalSize": -1,
+              "totalFiles": -1,
+              "totalRecords": -1,
+              "readBytes": -1,
+              "readRecords": -1
+            }
+          ]
+        },
+        {
+          "type": "DATASET",
+          "id": "CHRISTERADATAEXTRACTTEST.aam_trait_metadata_filtered",
+          "statsType": "NONE",
+          "totalReadBytes": -1,
+          "totalReadRecords": -1,
+          "partitions": [
+            {
+              "id": "NP",
+              "totalSize": -1,
+              "totalFiles": -1,
+              "totalRecords": -1,
+              "readBytes": -1,
+              "readRecords": -1
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "type": "DATASET",
+          "id": "CHRISTERADATAEXTRACTTEST.aam_bulk_extract_only_folders",
+          "partition": {
+            "id": "NP",
+            "writtenBytes": -1,
+            "writtenRecords": -1,
+            "writtenFiles": -1
+          }
+        }
+      ],
+      "state": "RUNNING",
+      "runningManagedThreads": 1,
+      "startTime": 1522327202353,
+      "endTime": 0,
+      "partialExecutionOrder": 0,
+      "warnings": {
+        "warnings": {},
+        "totalCount": 0
+      },
+      "def": {
+        "activityId": "compute_aam_bulk_extract_only_folders_NP",
+        "recipes": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "name": "compute_aam_bulk_extract_only_folders",
+            "type": "join"
+          }
+        ],
+        "sources": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract",
+            "partitionIds": [
+              "NP"
+            ]
+          },
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_trait_metadata_filtered",
+            "partitionIds": [
+              "NP"
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract_only_folders",
+            "partitionId": "NP"
+          }
+        ],
+        "requiredReason": {
+          "type": "NON_RECURSIVE_FORCED_BUILD",
+          "previousRecordTime": 0
+        },
+        "dependencies": [],
+        "recipeProjectKey": "CHRISTERADATAEXTRACTTEST",
+        "recipeName": "compute_aam_bulk_extract_only_folders",
+        "recipeType": "join"
+      },
+      "runningThings": {
+        "sql": [],
+        "hive": []
+      },
+      "counters": {}
+    }
+  },
+  "jobBeforePrune": {
+    "rootIds": [
+      "compute_aam_bulk_extract_only_folders_NP"
+    ],
+    "allActivities": {
+      "compute_aam_bulk_extract_only_folders_NP": {
+        "activityId": "compute_aam_bulk_extract_only_folders_NP",
+        "recipes": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "name": "compute_aam_bulk_extract_only_folders",
+            "type": "join"
+          }
+        ],
+        "sources": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract",
+            "partitionIds": [
+              "NP"
+            ]
+          },
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_trait_metadata_filtered",
+            "partitionIds": [
+              "NP"
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract_only_folders",
+            "partitionId": "NP"
+          }
+        ],
+        "dependencies": [],
+        "recipeProjectKey": "CHRISTERADATAEXTRACTTEST",
+        "recipeName": "compute_aam_bulk_extract_only_folders",
+        "recipeType": "join"
+      }
+    }
+  },
+  "job": {
+    "rootIds": [
+      "compute_aam_bulk_extract_only_folders_NP"
+    ],
+    "allActivities": {
+      "compute_aam_bulk_extract_only_folders_NP": {
+        "activityId": "compute_aam_bulk_extract_only_folders_NP",
+        "recipes": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "name": "compute_aam_bulk_extract_only_folders",
+            "type": "join"
+          }
+        ],
+        "sources": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract",
+            "partitionIds": [
+              "NP"
+            ]
+          },
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_trait_metadata_filtered",
+            "partitionIds": [
+              "NP"
+            ]
+          }
+        ],
+        "targets": [
+          {
+            "projectKey": "CHRISTERADATAEXTRACTTEST",
+            "datasetName": "aam_bulk_extract_only_folders",
+            "partitionId": "NP"
+          }
+        ],
+        "requiredReason": {
+          "type": "NON_RECURSIVE_FORCED_BUILD",
+          "previousRecordTime": 0
+        },
+        "dependencies": [],
+        "recipeProjectKey": "CHRISTERADATAEXTRACTTEST",
+        "recipeName": "compute_aam_bulk_extract_only_folders",
+        "recipeType": "join"
+      }
+    }
+  },
+  "def": {
+    "type": "NON_RECURSIVE_FORCED_BUILD",
+    "projectKey": "CHRISTERADATAEXTRACTTEST",
+    "id": "Build_aam_bulk_extract_only_folders_2018-03-29T12-39-58.622",
+    "name": "Build aam_bulk_extract_only_folders",
+    "initiator": "chris.halls",
+    "triggeredFrom": "RECIPE",
+    "recipe": "compute_aam_bulk_extract_only_folders",
+    "initiationTimestamp": 1522327198622,
+    "mailNotification": false,
+    "outputs": [
+      {
+        "type": "DATASET",
+        "targetDatasetProjectKey": "CHRISTERADATAEXTRACTTEST",
+        "targetDataset": "aam_bulk_extract_only_folders"
+      }
+    ],
+    "refreshHiveMetastore": true
+  },
+  "state": "ABORTED",
+  "jobStartTime": 1522327198623,
+  "jobEndTime": 1522327828152,
+  "resolveDuration": 274,
+  "execDuration": 625837,
+  "kernelPid": 3964
+}

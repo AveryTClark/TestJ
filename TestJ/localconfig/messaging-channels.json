@@ -1,0 +1,40 @@
+{
+  "channels": [
+    {
+      "id": "test_email",
+      "type": "smtp",
+      "configuration": {
+        "useSSL": false,
+        "useTLS": true,
+        "login": "zach.miller@mavens.co.uk",
+        "password": "uhbctfclyltqclrt",
+        "host": "smtp.gmail.com",
+        "port": 587
+      }
+    },
+    {
+      "id": "ProjectRADARTest",
+      "type": "smtp",
+      "configuration": {
+        "useSSL": false,
+        "useTLS": true,
+        "login": "projectradartest@gmail.com",
+        "password": "data1kUConnect22!",
+        "host": "smtp.gmail.com",
+        "port": 587
+      }
+    },
+    {
+      "id": "QualityAlerting",
+      "type": "smtp",
+      "configuration": {
+        "useSSL": true,
+        "useTLS": true,
+        "login": "qualityalerting@gmail.com",
+        "password": "hqjrtetunzscwibq",
+        "host": "smtp.gmail.com",
+        "port": 465
+      }
+    }
+  ]
+}

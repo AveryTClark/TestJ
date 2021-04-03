@@ -1,0 +1,1242 @@
+{
+  "connections": {
+    "hdfs_amazon_reviews": {
+      "params": {
+        "root": "/sources/amazon_reviews",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_weather": {
+      "params": {
+        "root": "/sources/weather/raw",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_master_data": {
+      "params": {
+        "root": "/apps/hive/warehouse/master_data.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "master_data",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_search": {
+      "params": {
+        "root": "/apps/hive/warehouse/search.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "search",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": true,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [
+        "search"
+      ],
+      "detailsReadability": {
+        "readableBy": "ALL",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_doubleclick": {
+      "params": {
+        "root": "/sources/doubleclick",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_default": {
+      "params": {
+        "root": "/apps/hive/warehouse",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "default",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "filesystem_root": {
+      "params": {
+        "root": "/",
+        "forcePathsOnDatasetsImport": true,
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_decahose": {
+      "params": {
+        "root": "/sources/decahose",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "ALL",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_dmpt_semantic_dev": {
+      "params": {
+        "root": "/apps/hive/warehouse/dmpt_semantic_dev.db",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_ecomm_work_dev": {
+      "params": {
+        "root": "/apps/hive/warehouse/ecomm_work_dev.db",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "postgresql_dataiku": {
+      "params": {
+        "port": 5432,
+        "host": "localhost",
+        "user": "dataiku",
+        "password": "dataiku123",
+        "db": "dataiku",
+        "useURL": false,
+        "namingRule": {
+          "canOverrideSchemaInManagedDatasetCreation": false
+        },
+        "useTruncate": false,
+        "autocommitMode": false,
+        "properties": []
+      },
+      "type": "PostgreSQL",
+      "allowWrite": true,
+      "allowManagedDatasets": true,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "mongo_engagement": {
+      "params": {
+        "useURI": true,
+        "uri": "mongodb://10.10.7.250:27017,10.10.7.251:27017,10.10.7.252:27017/engagement?replicaSet\u003drs0\u0026ssl\u003dtrue",
+        "port": 27017
+      },
+      "type": "MongoDB",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_hpt": {
+      "params": {
+        "root": "/sources/hpt",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "filesystem_managed": {
+      "params": {
+        "root": "${dip.home}/managed_datasets",
+        "forcePathsOnDatasetsImport": true,
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": true,
+      "allowManagedDatasets": true,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_data": {
+      "params": {
+        "root": "/apps/hive/warehouse/data.db",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_ecomm_semantic": {
+      "params": {
+        "root": "/apps/hive/warehouse/ecomm_semantic.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "ecomm_semantic",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_materialised": {
+      "params": {
+        "root": "/apps/hive/warehouse/materialised.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "materialised",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_sizmek": {
+      "params": {
+        "root": "/sources/sizmek",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_mtm": {
+      "params": {
+        "root": "/apps/hive/warehouse/mtm.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "mtm",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_fas": {
+      "params": {
+        "root": "/sources/fas/",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_digital_optimisation": {
+      "params": {
+        "root": "/apps/hive/warehouse/digital_optimisation.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "digital_optimisation",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [
+        "xx_digital_optimisation"
+      ],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_hc_domestos_unicef": {
+      "params": {
+        "root": "/apps/hive/warehouse/hc_domestos_unicef.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "hc_domestos_unicef",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_quantcast": {
+      "params": {
+        "root": "/sources/quantcast",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_io": {
+      "params": {
+        "root": "/sources/io",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_nlp": {
+      "params": {
+        "root": "/apps/hive/warehouse/nlp.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "nlp",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "filesystem_folders": {
+      "params": {
+        "root": "${dip.home}/managed_folders",
+        "forcePathsOnDatasetsImport": true,
+        "namingRule": {}
+      },
+      "type": "Filesystem",
+      "allowWrite": true,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_prm_visualisation_tool": {
+      "params": {
+        "root": "/apps/hive/warehouse/prm_visualisation_tool.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "prm_visualisation_tool",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_data_dev": {
+      "params": {
+        "root": "/apps/hive/warehouse/data_dev.db",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "defaultDatabase": "data_dev",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "Tera": {
+      "params": {
+        "port": 3306,
+        "defaultDatabase": "",
+        "host": "141.206.20.97",
+        "user": "arti.rajvaidhya",
+        "password": "kFQBtgGtW36yrs65",
+        "useURL": false,
+        "url": "jdbc:teradata://141.206.20.97/USER\u003darti.rajvaidhya,PASSWORD\u003dkFQBtgGtW36yrs65",
+        "namingRule": {
+          "tableNameDatasetNamePrefix": "${projectKey}_",
+          "canOverrideSchemaInManagedDatasetCreation": false
+        },
+        "useTruncate": false,
+        "autocommitMode": false,
+        "properties": []
+      },
+      "type": "Teradata",
+      "creationTag": {
+        "versionNumber": 0,
+        "lastModifiedBy": {
+          "login": "arti.rajvaidhya"
+        },
+        "lastModifiedOn": 1521719651090
+      },
+      "owner": "arti.rajvaidhya",
+      "allowWrite": true,
+      "allowManagedDatasets": true,
+      "allowManagedFolders": false,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_ecomm_semantic_dev": {
+      "params": {
+        "root": "/apps/hive/warehouse/ecomm_semantic_dev.db",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_managed": {
+      "params": {
+        "root": "/user/dataiku/dss_managed_datasets",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "dataiku",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_root": {
+      "params": {
+        "root": "/",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "dataiku",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": true,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "s3_test": {
+      "params": {
+        "useDefaultCredentials": false,
+        "accessKey": "AKIAIXOFU3DCXJIFVCRA",
+        "secretKey": "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",
+        "defaultManagedBucket": "ul-pdc-hadoop-dev",
+        "defaultManagedPath": "/",
+        "regionOrEndpoint": "eu-west-1",
+        "hdfsInterface": "S3A",
+        "encryptionMode": "NONE",
+        "namingRule": {}
+      },
+      "type": "EC2",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [
+        "administrators"
+      ],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "teradata_prm": {
+      "params": {
+        "port": 3306,
+        "defaultDatabase": "PRN01_D_LV_BSE_N_01",
+        "host": "141.206.20.97",
+        "user": "dataikuuser",
+        "password": "veuJ6ixmFhvzLGmC",
+        "useURL": false,
+        "namingRule": {
+          "tableNameDatasetNamePrefix": "${projectKey}_",
+          "canOverrideSchemaInManagedDatasetCreation": false
+        },
+        "useTruncate": false,
+        "autocommitMode": false,
+        "properties": []
+      },
+      "type": "Teradata",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_dmpt": {
+      "params": {
+        "root": "/apps/hive/warehouse/dmpt.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [
+        "data_team"
+      ],
+      "detailsReadability": {
+        "readableBy": "ALL",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_dmpt_semantic": {
+      "params": {
+        "root": "/apps/hive/warehouse/dmpt_semantic.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "dmpt_semantic",
+        "extraConf": [],
+        "namingRule": {
+          "hdfsPathDatasetNamePrefix": "${projectKey}/",
+          "tableNameDatasetNamePrefix": "${projectKey}_"
+        },
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hdfs_snowplow": {
+      "params": {
+        "root": "/sources/snowplow",
+        "hiveSynchronizationMode": "NO_SYNC",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_dataiku": {
+      "params": {
+        "root": "/apps/hive/warehouse/dataiku.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "dataiku",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": true,
+      "allowManagedDatasets": true,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_social": {
+      "params": {
+        "root": "/apps/hive/warehouse/social.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "social",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALL",
+      "allowedGroups": [],
+      "detailsReadability": {
+        "readableBy": "NONE",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    },
+    "hive_carelines": {
+      "params": {
+        "root": "/apps/hive/warehouse/carelines.db",
+        "hiveSynchronizationMode": "KEEP_IN_SYNC",
+        "defaultDatabase": "carelines",
+        "extraConf": [],
+        "namingRule": {},
+        "aclSynchronizationMode": "SUBDIRECTORY",
+        "clearMode": "DSS_USER",
+        "overridePreCreateManagedDatasetFolderBeforeMetastoreSyncForRecipes": false
+      },
+      "type": "HDFS",
+      "allowWrite": false,
+      "allowManagedDatasets": false,
+      "allowManagedFolders": true,
+      "useGlobalProxy": false,
+      "maxActivities": 0,
+      "credentialsMode": "GLOBAL",
+      "usableBy": "ALLOWED",
+      "allowedGroups": [
+        "administrators"
+      ],
+      "detailsReadability": {
+        "readableBy": "ALL",
+        "allowedGroups": []
+      },
+      "indexingSettings": {
+        "indexIndices": false,
+        "indexForeignKeys": false,
+        "indexSystemTables": false
+      }
+    }
+  }
+}

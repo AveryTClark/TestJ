@@ -1,0 +1,5039 @@
+{
+  "userSettings": {
+    "dataiku": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {
+          "DMC_NATURAL": "13ea65fbb9cb60d27ffbbe2f204afb0ead225fc958a354b8c796fd9b09deba01e4b94ec6468482da69d518b9fdcbd99e7efee921bea1c4cafae90e0193a4f9eb"
+        }
+      }
+    },
+    "bill.tsiligkiridis": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": false,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": false,
+        "watchedObjectsEditions": true,
+        "anyObjectOnProjectEdited": true
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {
+          "PDC_NLQUETRU_EN_FG_20170803": "-1"
+        }
+      }
+    },
+    "Serene.Toh": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "tara.ennis": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "jonathan.howells": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "justin.nuto": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "tom.boyespark": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Chuck.Hu": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Emma.Recknell": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "elspeth.ritchie": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "elspeth.ritchie"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "dev.admin1": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "kamilla.fernandes": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Ekaterina.Kolesnikova": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Ankita.Shah": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [
+            "In use",
+            "Sandbox",
+            "Draft",
+            "In production"
+          ],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "thomas.broadhead": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "renata.grasso": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Lindsey.Helbling": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "roberta.schaffer": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "ash.tapia": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "ash.tapia"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Marion.Jonville": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Karine.Johal": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {
+          "FRENCH_BURGERS_PINTEREST": "b6ec78c65c21123b9292fc5f6ad3f8c7ec5d373aa8995253d64d01f95df05d4d54c95782c1a6424aeeb5cef5a7e10327406f46606e44aa6502328cfd0e6b1c3d"
+        }
+      }
+    },
+    "adele.churchill": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "jacob.strong": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "faizan.shaikh": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": true
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Capability.PeopleDataCentre": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "abhishek.arekar": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "neha.chavan": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [
+            "Sandbox",
+            "In use"
+          ],
+          "contributors": [
+            "neha.chavan"
+          ]
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "samuele.becchetti": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "barnava.nandi": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "barnava.nandi"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "rina.palacio": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "edward.pickett": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "edward.pickett"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "myrte.bos": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Daan.Landkroon": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "james.hanson": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "pawan.joshi": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "pawan.joshi"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "jason.hardman": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "mo.hussain": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "lukas.dobrovsky": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "yayoi.yoshida": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": false,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "darren.saram": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "wanran.li": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Vida.Cruz": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "flow",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "victor.ignatiuc": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "fatima.akhter": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "lauren.payne": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "NEW_PARENT_JOURNEY_UKPDC"
+        ],
+        "activeFilterByProject": {}
+      }
+    },
+    "Vladimir.Calderon": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [
+            "Sandbox"
+          ],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Badr.al-asadi": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Badr.al-asadi"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "nejla.comert": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "matthew.hull": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Stefan.platteau": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Stefan.platteau"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Emmanouil.Androulakis": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Emmanouil.Androulakis"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "SKINCAREDEEPDIVE"
+        ],
+        "activeFilterByProject": {
+          "YOUTUBE_TEST": "6cc879cea50718fd57ab05eff153191a7e40a9ddf2785ffd5ba234883723691cc8dd8a1203742388dac2be35251bdba4d8c8237ccce7440bfe06cbdf814ebdb2"
+        }
+      }
+    },
+    "rodolfo.freitas": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "bruno.leardine": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "flow",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Miguel.Guido": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Miguel.Guido"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Criselle.Santiago": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Criselle.Santiago"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "danielle.tresise": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "anda.ziemele": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "anda.ziemele"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "winnie.shen": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "winnie.shen"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "habib.alam": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "habib.alam"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "mohmmoud.muthana": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "sanjeev.chandran": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "sanjeev.chandran"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "SEAAPDC_PESTLE_TH_AC_10102020"
+        ],
+        "activeFilterByProject": {}
+      }
+    },
+    "Visuta.Pruksananonda": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Visuta.Pruksananonda"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "linda.hoeberigs": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "aditya.joshi": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "richard.seabrook": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Maija.Antila": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "Maija.Antila"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "mia.mayer": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "rahul.dsouza": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "rahul.dsouza"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "craig.fawcett": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Rong.Chen-Pike": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "SEAAPDCPHPESTLEANALYSISKO03072018"
+        ],
+        "activeFilterByProject": {
+          "SEAAPDCPHSUNSILKPENLOSSTGKO260818": "-1",
+          "SEAAPDCPHPESTLEANALYSISKO03072018": "08ef44238933d69f140bf57f86f2b09e54e2227790dbb50de5d45bf81f3adbb6373d7c00c6393958dc1fe7ed5d0e2913c6ff0fbc6721cb93fa1efa6adbba2e49",
+          "SEAAPDC_PESTLE_PH_MK_10102020": "-1"
+        }
+      }
+    },
+    "admin": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "james.dang": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "james.dang"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "jack.nicholas": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [
+            "Sandbox"
+          ],
+          "contributors": [
+            "jack.nicholas"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Dimitrios.Chalvatzis": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "anda.ziemele"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "christina.maniati": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "NLP_DEMO"
+        ],
+        "activeFilterByProject": {}
+      }
+    },
+    "bashir.ali": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "ryan.healy": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "alex.luckett": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": false,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": true,
+        "anyObjectOnProjectEdited": true
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "rebecca.harper": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "simba.chakaingesu": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "simba.chakaingesu"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "sebastiaan-de.leeuw": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "anna.jankowska": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "anna.jankowska"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "lucy.bell": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "neshoan.mujtaba": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Ng-Vu-Dan.Huyen": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "rafael.arrigoni": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "status",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "karen.ramos": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "mohamed-syamin.musa": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "mohamed-syamin.musa"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "mark.marshall": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "laura.kreuk": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "araba.sagoe": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "araba.sagoe"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "joe.portman": {
+      "mentionEmails": {
+        "enabled": true,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "list",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": true,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "anthony.thomas": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "sebastiaan.jansen": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "gareth.beeks": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "commit_for_user",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    },
+    "Samuel.Barkaway": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": []
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [
+          "IASB"
+        ],
+        "activeFilterByProject": {}
+      }
+    },
+    "chris.halls": {
+      "mentionEmails": {
+        "enabled": false,
+        "subject": "Someone mentioned you"
+      },
+      "projectManagerViewFilters": {
+        "filter": {
+          "tags": [],
+          "projectStatus": [],
+          "contributors": [
+            "chris.halls"
+          ]
+        },
+        "display": {
+          "mode": "mosaic",
+          "flowLayoutEngine": "dot"
+        },
+        "sort": {
+          "mode": "name",
+          "isReversedSort": false
+        }
+      },
+      "frontendNotifications": {
+        "loginLogout": true,
+        "objectOnProjectCreatedDeleted": true,
+        "watchStar": true,
+        "otherUsersTasks": true,
+        "watchedObjectsEditions": false,
+        "anyObjectOnProjectEdited": false
+      },
+      "offlineQueue": {
+        "enabled": false,
+        "subject": "DSS activity while you are offline"
+      },
+      "digests": {
+        "enabled": false,
+        "subject": "DSS daily digest"
+      },
+      "codeEditor": {
+        "autoCloseBrackets": true,
+        "autoCloseTags": true,
+        "fontSize": 13,
+        "indentUnit": 4,
+        "tabSize": 4,
+        "indentWithTabs": false,
+        "theme": "default",
+        "keyMap": "default"
+      },
+      "flowFilteringSettings": {
+        "projectsWithDisabledFiltering": [],
+        "activeFilterByProject": {}
+      }
+    }
+  }
+}

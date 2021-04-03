@@ -1,0 +1,7 @@
+{
+  "id": "naturalid",
+  "label": "Natural ID",
+  "normalizationMode": "EXACT",
+  "detectable": false,
+  "type": "DECLARATIVE"
+}

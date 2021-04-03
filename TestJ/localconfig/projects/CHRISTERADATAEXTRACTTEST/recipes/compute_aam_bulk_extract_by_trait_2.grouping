@@ -1,0 +1,264 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "keys": [
+    {
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "trait",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "region_code",
+      "count": false,
+      "$idx": 2,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "$selected": false,
+      "stddev": false,
+      "first": false
+    }
+  ],
+  "values": [
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "aamid_hash",
+      "count": false,
+      "$idx": 0,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": true,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "epoch_timestamp",
+      "count": false,
+      "$idx": 1,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": true,
+      "firstLastNotNull": false,
+      "column": "timestamp_as_date",
+      "count": false,
+      "$idx": 2,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": true,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "timestamp_year",
+      "count": false,
+      "$idx": 3,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "timestamp_month",
+      "count": false,
+      "$idx": 4,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "timestamp_day",
+      "count": false,
+      "$idx": 5,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "ingestion_timestamp",
+      "count": false,
+      "$idx": 6,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    },
+    {
+      "last": false,
+      "max": false,
+      "firstLastNotNull": false,
+      "column": "filename",
+      "count": false,
+      "$idx": 7,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "concatDistinct": false,
+      "sum2": false,
+      "min": false,
+      "countDistinct": false,
+      "avg": false,
+      "stddev": false,
+      "first": false
+    }
+  ],
+  "globalCount": true,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVESERVER2"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "enlargeYourBits": true,
+  "outputColumnNameOverrides": {},
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "timestampNoTzAsDate": false,
+            "name": "trait",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "region_code",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "aamid_hash_distinct",
+            "type": "bigint",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "timestamp_as_date_min",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "timestamp_as_date_max",
+            "type": "string",
+            "maxLength": -1
+          },
+          {
+            "timestampNoTzAsDate": false,
+            "name": "count",
+            "type": "bigint",
+            "maxLength": -1
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "filters": [
+    {
+      "isAdvanced": false,
+      "scope": "BUILT_IN",
+      "isDirty": false,
+      "id": "-1",
+      "name": "All",
+      "creationDate": 0,
+      "structuredFlowObjectFilter": {
+        "tags": [],
+        "types": [],
+        "creator": [],
+        "customCreationDateRange": {
+          "from": 0,
+          "to": 0
+        },
+        "downstreamPredecessorsIds": [],
+        "datasetTypes": [],
+        "recipeTypes": []
+      },
+      "removeFadedElements": false,
+      "query": ""
+    },
+    {
+      "isAdvanced": false,
+      "scope": "BUILT_IN",
+      "isDirty": false,
+      "id": "-2",
+      "name": "Recent work",
+      "creationDate": 0,
+      "structuredFlowObjectFilter": {
+        "tags": [],
+        "types": [],
+        "creator": [],
+        "creationDateRange": "PAST_MONTH",
+        "customCreationDateRange": {
+          "from": 0,
+          "to": 0
+        },
+        "downstreamPredecessorsIds": [],
+        "datasetTypes": [],
+        "recipeTypes": []
+      },
+      "removeFadedElements": false,
+      "query": "created:PAST_MONTH"
+    }
+  ]
+}

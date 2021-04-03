@@ -1,0 +1,157 @@
+{
+  "type": "Teradata",
+  "managed": false,
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "chris.halls"
+    },
+    "lastModifiedOn": 1522074883307
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "chris.halls"
+    },
+    "lastModifiedOn": 1522074657850
+  },
+  "tags": [],
+  "params": {
+    "connection": "teradata_prm",
+    "notReadyIfEmpty": false,
+    "mode": "query",
+    "partitioned": false,
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "query": "SELECT distinct internal_consumer_id as email,\n\t-- Add Mike\u0027s Mappings (this does not include Mindshare\u0027s ambiguous consumers)\n\tCASE\n\tWHEN optin_hierarchy_value \u003d \u0027BH0045\u0027 THEN \u0027AXE\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECEL\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BF0087\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELCHOLESTEROL\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027FLORA\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELPROACTIVM\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELPROACTIV\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027becelproactiv\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELPRO\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELHCP\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027FLORAHEALTHCAREPRO\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BECELPROACTIVHEALTHCAREPRO\u0027 THEN \u0027BECEL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027Blue Band\u0027 THEN \u0027BLUEBAND\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027blueband\u0027 THEN \u0027BLUEBAND\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BF0116\u0027 THEN \u0027BLUEBAND\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BF0203\u0027 THEN \u0027CONIMEX\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027conimex\u0027 THEN \u0027CONIMEX\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027NEUTRALACTIE\u0027 THEN \u0027NEUTRAL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027NEUTRALNL\u0027 THEN \u0027NEUTRAL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027NEUTRAL\u0027 THEN \u0027NEUTRAL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027signal\u0027 THEN \u0027SIGNAL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027zwitsal\u0027 THEN \u0027ZWITSAL\u0027\n\tWHEN optin_hierarchy_value \u003d \u0027BH0875\u0027 THEN \u0027ZWITSAL\u0027\n\tELSE optin_hierarchy_value\n\tEND\n\tas brand,\n\t\u0027NL\u0027 || email || brand as unilever_id\n\tFROM PRN01_D_LV_BSE_N_01.gpm_em\n\tWHERE market \u003d \u0027NL\u0027\n\tAND brand IN\n\t\t(\u0027ANDRELON\u0027,\u0027AXE\u0027,\u0027BECEL\u0027,\u0027BERTOLLI\u0027,\n\t\t\t\u0027BLUEBAND\u0027,\u0027CONIMEX\u0027,\u0027DOVE\u0027,\u0027KNORR\u0027,\n\t\t\t\u0027NEUTRAL\u0027,\u0027UNOX\u0027,\u0027VASELINE\u0027,\u0027ZWITSAL\u0027);",
+    "table": "nl_adobe_consumer_profile_response",
+    "schema": "PRN01_D_DV_BSE_N_01",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true
+  },
+  "schema": {
+    "userModified": true,
+    "columns": [
+      {
+        "name": "email",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 500
+      },
+      {
+        "name": "brand",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 500
+      },
+      {
+        "name": "unilever_id",
+        "type": "string",
+        "timestampNoTzAsDate": false,
+        "maxLength": 500
+      }
+    ]
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  }
+}

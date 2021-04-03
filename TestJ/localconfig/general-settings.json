@@ -1,0 +1,223 @@
+{
+  "alationSettings": {
+    "enabled": false
+  }, 
+  "computablesAvailabilityMode": "EXPOSED_ONLY", 
+  "corsSettings": {
+    "accessControlAllowCredentials": false, 
+    "accessControlAllowHeaders": [], 
+    "accessControlAllowMethods": [], 
+    "accessControlAllowOriginRegExps": [], 
+    "accessControlExposeHeaders": []
+  }, 
+  "defaultDatasetCreationSettings": {
+    "preferedStorageFormats": "ORC,PARQUET_HIVE,CSV_ESCAPING_NOGZIP_FORHIVE,CSV_EXCEL_GZIP"
+  }, 
+  "disableAutomaticTriggers": false, 
+  "generateInitialPassword": false, 
+  "globalCrossProjectBuildBehaviour": "STOP_AT_BOUNDARIES", 
+  "graphiteReportingDelay": 0, 
+  "hadoopSettings": {
+    "kerberosLoginEnabled": false
+  }, 
+  "hiveSettings": {
+    "addCompressionCommands": false, 
+    "addWriteACLOnDataUsabilityACL": false, 
+    "additionalUserToGrantAccessToWhenImpersonating": "hive", 
+    "connectionProperties": [], 
+    "defaultRecipesExecutionEngine": "HIVESERVER2", 
+    "engineCreationSettings": {
+      "executionEngine": "HIVESERVER2"
+    }, 
+    "executionConfigs": [
+      {
+        "conf": [], 
+        "name": "default"
+      }
+    ], 
+    "extraUrl": "", 
+    "hiveServer2Host": "10.10.7.223", 
+    "hiveServer2Port": 10000, 
+    "overrideDatabaseInLocalMetastore": false, 
+    "preCreateManagedDatasetFolderBeforeMetastoreSyncForHS2Recipes": true, 
+    "useURL": false
+  }, 
+  "homeMessages": [
+    {
+      "content": "Naming Convention for Project: PDC \u2013 Brief \u2013 Language \u2013 Analyst Initials \u2013 Expiry Date\n\nExamples: CATPC \u2013 Understanding Millenials \u2013 EN \u2013 JH \u2013 30112016", 
+      "name": "Project Naming Convention"
+    }, 
+    {
+      "content": "Happy Birthday Lord Leverhulme! - Sept 19th", 
+      "name": "PDC Thought for the Day"
+    }, 
+    {
+      "content": "\"I've talked to Mark about this. His understanding of the subject is limited.\" Elon Musk", 
+      "name": "PDC Thought for the Day"
+    }
+  ], 
+  "impalaSettings": {
+    "additionalUserToGrantAccessToWhenImpersonating": "impala", 
+    "authBehavior": "KERBEROS_FALLBACK_NOAUTH", 
+    "connectionProperties": [], 
+    "createRecipeInStreamMode": true, 
+    "credentialsMode": "GLOBAL", 
+    "datanodes": [], 
+    "enabled": false, 
+    "engineCreationSettings": {
+      "streamMode": true
+    }, 
+    "isSelfSigned": false, 
+    "port": 21050, 
+    "preCreateManagedDatasetFolderBeforeMetastoreSyncForDirectWriteRecipes": true, 
+    "useSimbaDriver": false, 
+    "useSsl": false, 
+    "useURL": false
+  }, 
+  "impersonation": {
+    "enabled": false, 
+    "groupRules": [], 
+    "userRules": []
+  }, 
+  "isAWSMarketplace": false, 
+  "ldapSettings": {
+    "autoImportUsers": true, 
+    "defaultUserProfile": "READER", 
+    "displayNameAttribute": "cn", 
+    "emailAttribute": "mail", 
+    "enableGroups": true, 
+    "enabled": false, 
+    "groupFilter": "(&(objectClass=posixGroup)(memberUid={USERNAME}))", 
+    "groupNameAttribute": "cn", 
+    "groupProfiles": [], 
+    "useTls": false, 
+    "userFilter": "(&(objectClass=posixAccount)(uid={USERNAME}))"
+  }, 
+  "limits": {
+    "memSampleBytes": {
+      "hard": -1, 
+      "soft": -1
+    }, 
+    "shakerMemTableBytes": {
+      "hard": -1, 
+      "soft": -1
+    }
+  }, 
+  "mailSettings": {}, 
+  "maxRunningActivities": 50, 
+  "maxRunningActivitiesPerJob": 50, 
+  "noLoginMode": false, 
+  "notifications": {
+    "notifyOnTaskStartAndStop": "INITIATOR", 
+    "notifyOnUserConnection": "ALL"
+  }, 
+  "pluginDevEnabled": true, 
+  "projectStatusList": [
+    {
+      "color": "#4285F4", 
+      "name": "Sandbox"
+    }, 
+    {
+      "color": "#77bec2", 
+      "name": "Draft"
+    }, 
+    {
+      "color": "#94BF51", 
+      "name": "In use"
+    }, 
+    {
+      "color": "#ee874a", 
+      "name": "In production"
+    }, 
+    {
+      "color": "#CCCCCC", 
+      "name": "Archived"
+    }
+  ], 
+  "proxySettings": {
+    "port": 0
+  }, 
+  "recipeEnginesPreferences": {
+    "enginesPreferenceOrder": [], 
+    "forbiddenByRecipeType": {}, 
+    "forbiddenEngines": [], 
+    "preferenceByRecipeType": {}
+  }, 
+  "security": {
+    "caseSensitiveLogins": false, 
+    "forceSingleSessionPerUser": false, 
+    "hideErrorStacks": false, 
+    "hideVersionStringsWhenNotLogged": false, 
+    "restrictUsersAndGroupsVisibility": false, 
+    "secureCookies": false, 
+    "secureSecretKeys": true, 
+    "sessionsMaxIdleTimeMinutes": 0, 
+    "sessionsMaxTotalTimeMinutes": 0
+  }, 
+  "sparkSettings": {
+    "configForJupyter": "default", 
+    "executionConfigs": [
+      {
+        "conf": [
+          {
+            "key": "spark.master", 
+            "value": "yarn-client"
+          }, 
+          {
+            "key": "spark.executor.memory", 
+            "value": "2g"
+          }, 
+          {
+            "key": "spark.executor.instances", 
+            "value": "6"
+          }, 
+          {
+            "key": "spark.yarn.executor.memoryOverhead", 
+            "value": "1024"
+          }
+        ], 
+        "name": "default"
+      }, 
+      {
+        "conf": [
+          {
+            "key": "spark.master", 
+            "value": "yarn-client"
+          }, 
+          {
+            "key": "spark.executor.memory", 
+            "value": "2g"
+          }, 
+          {
+            "key": "spark.executor.instances", 
+            "value": "4"
+          }, 
+          {
+            "key": "spark.yarn.executor.memoryOverhead", 
+            "value": "1024"
+          }
+        ], 
+        "name": "yarn-large"
+      }, 
+      {
+        "conf": [
+          {
+            "key": "spark.master", 
+            "value": "local[4]"
+          }
+        ], 
+        "name": "local-only"
+      }
+    ], 
+    "sparkEnabled": true
+  }, 
+  "ssoSettings": {
+    "enabled": false, 
+    "protocol": "SAML", 
+    "remappingRules": [], 
+    "spnegoMode": "PREAUTH_KEYTAB", 
+    "spnegoStripRealm": true
+  }, 
+  "triggerCountdownDuration": 60, 
+  "udr": true
+}

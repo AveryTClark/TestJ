@@ -1,0 +1,3437 @@
+{
+  "users": [
+    {
+      "login": "bill.tsiligkiridis",
+      "displayName": "Bill Tsiligkiridis",
+      "email": "bill.tsiligkiridis2@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:937a124e89f4d2a5:43e7431f79682499c5b9951e948ce7b4295c12b30fd900c948ac748b3d27da5940e1f6a430c05d19cf433270a69963ca05096d0006e5de9f16a2ebc4d310c816",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "christina.maniati",
+      "displayName": "Christina (Maniati) Arnold",
+      "email": "christina.maniati@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:76340173ac8f01ca:f1ddbe572a98e7dd0fe500b3a95447c733deb32236c3aa068f1a22acece2da1d242ffaef5814ba73f4e459cd9ca984999b0064ad43e485db2fabd5b80b01da8d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "james.hanson",
+      "displayName": "James Hanson",
+      "email": "james.hanson@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "xx_pc",
+        "xx_hc",
+        "xx_food",
+        "xx_ref",
+        "na_pdc",
+        "in_pdc",
+        "eu_pdc",
+        "seaa_pdc",
+        "namet_pdc",
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d2c29f046115adb9:b5f71ce468cb838871b9c62d50532661ae2cf765ffb169d3e42ad69d9b274cfb2ad0d920f7d03839b0c6b8a290d2a0c9d01a9d1376da1ea28e2ed3d41a339115",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jacob.strong",
+      "displayName": "Jacob Strong",
+      "email": "jacob.strong@capgemini.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:559eb0045f6a804e:9b648f16e041b04261bdce511f311340a3378300320eb886b2e0cf1bf66a5e19d170f7e5037532fb0f8019b24600c79dc10f8a6ee4b93da36d3cc0e3ce7963e0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rina.palacio",
+      "displayName": "Rina Palacio",
+      "email": "rina.palacio@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "xx_domestos_unicef",
+        "xx_pc",
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:971a10af32ebc8a6:a717f12231dada1e3c7fb3b872b930e48a6142541fe2c2b4b8fcb29a07c897c464131afcff982b828b1ae4005aedd4cfe7d4b06a144ff0970cf223679ee2a2a2",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "elspeth.ritchie",
+      "displayName": "Elspeth Ritchie",
+      "email": "elspeth.ritchie@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:7604d914db6fc919:e8e0d01dc72b0a4a786d4335ea67559769e0708f61a47e36a5c01970936c4e750429f77f74faa53c4794f36f331cf8705e338c1c1752718f0555165d0344c84b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "linda.hoeberigs",
+      "displayName": "Linda Hoeberigs",
+      "email": "linda.hoeberigs@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:0b0f82432a1440c0:dc40ac0a044b8171a063e29cae4b93919a9c03e10baf63e445c8c1ffb0a5250d28bcec51819a844ad59603e94969df120e13f5505bde48a49ff9039a6adca832",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jason.hardman",
+      "displayName": "Jason Hardman",
+      "email": "jason.hardman@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f9c61730f91e36e9:f461779d5d01be76176bb67c797f3df013d843027715c2819414e2ea8acfe432278708f1bcb2cf5d234e6fd47a402a971cca1071853faa6d29d748755d868473",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jonathan.howells",
+      "displayName": "Jonathan Howells",
+      "email": "jonathan.howells@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "search",
+        "code_env_admin"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:fbdd1d61f809f89f:b1a00f0b63785b6bbdd4f82379821e4fb5df5b1699747e85ddf5933187e148868a0b215442a9a42f7d7f5ad4b2c15c604dc296af0d8d53d457c925838d92ea7d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ash.tapia",
+      "displayName": "Ash Tapia",
+      "email": "Ash.Tapia@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:cc350e007ac41da6:d5597d4f071deaf678b0ccc124058e06e52fd14bccfc768e481208fff36a3656c7f14c40911a2c591880b63ef69459686db6403c00452081012dc920defaa48c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "automation",
+      "displayName": "automation",
+      "email": "devopsunilever.in@capgemini.com",
+      "groups": [
+        "administrators"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:5b9896c68160daa5:a7a6fa74e737d05dcd8f8179a0203ee6a4a3e7eb3633da06b60888cccfcfdefb76bb6a82c4a064f1b29c059546922aba5f0a645b80e29c85d457a0281ab6d4ce",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Capability.PeopleDataCentre",
+      "displayName": "Capability Centre",
+      "email": "Capability.PeopleDataCentre@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:eb169332c051935f:ead8d21d5c8661c6b064e16b945f96274cedc9ddd80368cdb02a6b20a8c77a4f2bb1f9c952fd3e51cee13f1ab416bd2c61988aa66d4f373aa4bf94928ff9c478",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dataiku",
+      "displayName": "Dataiku Team",
+      "email": "adrien.perrigault@dataiku.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:ccaa12632871571c:49ba9bcf85a2b19e28926c0a27009b8cca1e917344bcc821c2947ef17adf6befc6ba7a7d65d946c593fc18b962cac17b0146eecf4b89457b4c6633c6720bf195",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tara.ennis",
+      "displayName": "Tara Ennis",
+      "email": "Tara.Ennis@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:839e1d208a708c18:6b422097241b556e91024f24345756dedf23fbcf9d8e885fd36c902a96f4e119fd673b9e81b810e608aea1ad722b9efe16d4d658758affbd9b7e39c3a93705ac",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mo.hussain",
+      "displayName": "Mo Hussain",
+      "email": "mo.hussain@mavens.co.uk",
+      "groups": [
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:dc0fd7f721eb8643:7a9afb74d65276eb8f375c820594e71e951a749b5daccf4c97e46b707a65f60df0c122b7fe3b9e8c9ee013b20d1858a5376dbbae7c19d49ce929326e255c8f23",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ilse.indrana",
+      "displayName": "Ilse Indrana",
+      "email": "ilse.indrana@mavens.co.uk",
+      "groups": [
+        "xx_hc",
+        "xx_food",
+        "search"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f8c724432bdd28bb:fde9caac4b994cbc55c77e73f1b23b80119bd679cefab873acc1365942030192ede270b47c78150a0b4f7f4b3e670d24e0d8bd33180bcf61d58fad7c320652d6",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "charlie.mccarthy",
+      "displayName": "Charlie McCarthy",
+      "email": "charlie.mccarthy@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ed884ff6b613973a:220e90ad8235deafe68c4a504e55d63576574ca09112f9c2e2c9904e311d2a4be3f984505840f6504d63acfa1cdfecf430181696f6010fcb2845624884ddac4a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "edward.pickett",
+      "displayName": "Edward Pickett",
+      "email": "edward.pickett@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b244edceed3a633b:cf60b96b39049960839bb9300f33d09c77f78a64572aecf4ccd3bb12eed00a848e0ce676832a1f64c509e5c01db7528f4756ebe0b717971bad11c40f0b2c66b0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "goran.becirevic",
+      "displayName": "Goran Becirevic",
+      "email": "goran.becirevic@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0d38814b760cadda:74b31446fa132fefe95d5b49168901b3038d5f24f7cfc4c0eb67258f9aa46f1c0267c8be7082c3acf5e5b0445f6761fc066b232e4043266c027f30b644541c44",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "justin.nuto",
+      "displayName": "Justin Nuto",
+      "email": "Justin.Nuto2@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6ad1b27aac5b3822:a33538089df089702ba253a4fbb3e35a21f6409f644298b660d9f76dd743dc52d3083088e9bc32ff95d4c0243f0ea3f6dc6102107065104deccedf6a4c30eabf",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mark.marshall",
+      "displayName": "Mark Marshall",
+      "email": "mark.marshall@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:671e73ebfe6267fb:d0e03c67ffd96ccd55a0094eddf315ee8f6553b65c7d6719c3087a1909df6506dd0d634221b0a0c278882e115212860f2b53aee9838e3b1e4ba3769e18cee05f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "roberta.schaffer",
+      "displayName": "Roberta Schaffer",
+      "email": "Roberta.Schaffer@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:9c5c649e0ba327fc:bc1018fbe80bb3792149dc19ecb961b2b09fb2653f097ac09ab4b7a7223627c9b4548f2b29e22bb8205f3cdc19e2e2a7b35cfe328f70c9eeabb3c3268e9ef82e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "vittoria.musotto",
+      "displayName": "Vittoria Musotto",
+      "email": "Vittoria.Musotto@unilever.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:17c19e0347748d50:8bba56f303be9ee54368cda750f4c41ca25d5716ffd6344fa6db22b96dc7a6b74a458ad5ab347188292223b0f067f571bb45c3a31aec96539dc6f4bb8cdba259",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "wanran.li",
+      "displayName": "Wanran Li",
+      "email": "Wanran.Li3@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b7972a9e395f8619:836f5f2d14f14eff6407704466b2e3047bb9618b3cbc7e7ebd059a0a98b182546c5f03efdf55e7b66a915454e0a816a9aba8101ce8d59390c41011a21ed9a489",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "camila.degusmao",
+      "displayName": "Camila De Gusmao",
+      "email": "camila.degusmao@unilever.co.uk",
+      "groups": [
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:62b7b3b3085f2c71:f859a3b6327c693bb16554151f49a816b388a5b4a2dfe44dd1f83c043be7f8916eb32b1d063a030103ba49a709cd9a6a4d43a78496d0ee437450253249ccdb3c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "chris",
+      "displayName": "chris.palengat",
+      "email": "chris@freemavens.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1c2dc8ef3bc80ff9:dbeda03c0c519b789d8a8c3eafea8d61d4a08bae5e7188e9cba09330f53cfa87abff8a6017f20f7d1a313e98169357362f417e815a5bb1eaa36642071b0f616d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "emma.wong",
+      "displayName": "Emma Wong",
+      "email": "emma.wong@freemavens.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:ebe89ec056179ea4:b4acbe89b86bf9f2b0592fba56e0cf5bb1a507156e03407c085123612b66a7896fed328f600b9ba6ee78817b7c0b5e0ecfa653d216d9e8b0b31b12bc1879f02c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Lucy.Thompson",
+      "displayName": "Lucy Thompson",
+      "email": "Lucy.Thompson@unilever.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:c087c55d80e74a7b:5b2612aa46a0e21ea1145419044a03288c9a90a8a053d7c23a28d56c7263e2d3d69040a631fea09063c5d9b279391b30459752d331dba778bddcaf57ccf4984c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "renata.grasso",
+      "displayName": "Renata Grasso",
+      "email": "renata.grasso@freemavens.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:882a2b425aec9cec:1f8cd374dc163f26f74c9b295c46c59fb45cd26aa2ea0d17c76194666ca2e726198c29052189c7891d978238bf88dab09c70831153d62dfe7a3120c430cade54",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rick-van.yperen",
+      "displayName": "Rick-van Yperen",
+      "email": "rick-van.yperen@unilever.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b0195ab02b2f6100:da92e6fae701fb642421f4229b7b78318f0fd55f71d794b770d5ebb6c0fdbd2f2c09fd3d0a640d63f9f2ac57f5fed8996da23a47c91909eb819877841b0d938c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sandra.morgan",
+      "displayName": "Sandra Morgan",
+      "email": "sandra.morgan@unilever.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:feb014449f226a55:68ade47f57ce08558a1b3f13e8c55ba3d20108ce8abe0c091f5f8d1917936a27c28a0a18c4e2a74a10d522812aea1c8f5c6a1862e27f5bbe1ec6d01987debee9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dom.grant",
+      "displayName": "Dom Grant",
+      "email": "dom.grant@freemavens.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:86be55d677fd6adb:4d2a549b9115d94d296310e85cf5cd4eaafbf470b4ef704a7f09b8ffa4a09e516cbbab27bef109343ccdfd18b381263a7ac6b049482cd5451dbaf1a2afb5c6e4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Badr.al-asadi",
+      "displayName": "Badr Al-asadi",
+      "email": "Badr.al-asadi@freemavens.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:932b05fb78df296e:1f075ddc6923fc0f10c8d96f68aca24c49d2b3a7723c1b7375faaff79a401af6134e66173b17103b96d93297a95818bcfa87f84a9b795af8128eb91575e51435",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Felipe.Mattei",
+      "displayName": "Felipe Mattei",
+      "email": "Felipe.Mattei@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:03d10586790fefa2:faf3c0860876a5ddfce7f768a47ca95689df291305653a5b908a696e85dfdcf95b41ac26aabd07320097886ccf7755ce3a0cccb1f5bdd8119789537c61fc6bc6",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "kamilla.fernandes",
+      "displayName": "Kamilla Fernandes",
+      "email": "kamilla.fernandes@mavens.co.uk",
+      "groups": [
+        "xx_pc",
+        "search"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:453fa37b8252f189:d1fe918600e418feb9d3c8567f3035892cd688a79eaf303d078b2dbe22b7da1d8900af553536ddbaea1dc1001facba9fc0f0200a39310134ec6e699c91db6947",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Dimitrios.Chalvatzis",
+      "displayName": "Dimitrios Chalvatzis",
+      "email": "Dimitrios.Chalvatzis@unilever.com",
+      "groups": [
+        "administrators",
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:08e6fe87567581be:75a4c79681bb24e3be4c20253ec17fa1f79086412490867f8e283a24bf117e587fd3d96710f8ff857f1c993def2efe8724020232adf9906475b13ad7f3caf6b5",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ekaterina.Kolesnikova",
+      "displayName": "Ekaterina Kolesnikova",
+      "email": "Ekaterina.Kolesnikova@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:2a51e609552a7ec2:5e4009041911c846270ccff75fcf58512f9d5fcf5cefb880ff3ac670a0781023469dad370dbc27db34da050b2f8a9f90c3f67c6d7495c4a2666aba9abd3492c3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Sanaa.Rafay",
+      "displayName": "Sanaa Rafay",
+      "email": "sanaa.rafay@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:dee527d86086c105:11411400de1041d7676d2ae2ed4ffce97dba921019abadbbe78e41452f435c51a28ee4938fd0bc6769a29d8c76b6f2e19d139fc3cbe2bff00387469c29e6302f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Vanja.Dobrich",
+      "displayName": "Vanja Dobrich",
+      "email": "Vanja.dobrich@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:147fd828d191eafd:e8158a5abfe08f387c7d7f3f47a666db2f6120852d008a498d92c72a989f2c7ca37ac5417dab6de54d73135b91aa6c681c7380231fad33f073f6c0443d42c256",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Olga.Giannoudi",
+      "displayName": "Olga Giannoudi",
+      "email": "Olga.Giannoudi@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a6863002442eecf8:af9ce84258d9d1ef3c70679a78ad563a48480ace93f7139f480d29ba5d54a336f542574521308eca103161d698aedebb51fca3be4f22e0a6f0d7106a58c1e95d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "marina.ferfolja",
+      "displayName": "Marina Ferfolja",
+      "email": "marina.ferfolja@unilever.com",
+      "groups": [
+        "data_team",
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:365c830c131380ab:8fb0bf81f0b9e10fe8bec92d2e032e84f773399238093c149cb691dd1d938383f002127f21b489a97ab192e2b484da03ba6eeb58bbc205d085da0695339cae8b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Karine.Johal",
+      "displayName": "Karine Johal",
+      "email": "Karine.Johal@unilever.com",
+      "groups": [
+        "administrators",
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:1a2f71c17b4b9b07:4a06cc5aafbc005be38b7065197bf5824eb5397f22ed993d69e8ca9777ae9215c6cd730a7d7db342eeca2766c8dff9d4a77947687979d98274d19d7a36f00b04",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Marta.Paiva",
+      "displayName": "Marta Paiva",
+      "email": "Marta.Paiva@unilever.com",
+      "groups": [
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f0784ad28aa432f5:e7de3eae1445a9fc66f38ce31e86fc21fe2bd7aae9876285c1d598944bf2b238bb8a109cbf345f59e501a0526640fe54de033abf7e3e872f9ca751ff44bf84e0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Emma.Recknell",
+      "displayName": "Emma Recknell",
+      "email": "Emma.Recknell@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:625ea1446dcc68c0:9dd28167643ddaa7cecb13e176cc3107e68d51c91fc835f1c84d20477fb330b7258bb25822309133307b4a0f72f6ccd0a7681fa015ff772d380acab9cd6334f9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Chuck.Hu",
+      "displayName": "Chuck Hu",
+      "email": "Chuck.Hu@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:9e9cc9d221f3bb79:97e701b72775ca6301249114dd3edc76ee0976cfc5c4b57f9c27a8ca587cc1a6c2883f8759cef4fe4504e587d65a5e4e4e5071ec2e2d4ec35bd81637028bbb0a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tom.boyespark",
+      "displayName": "Tom Boyes Park",
+      "email": "tom.boyes-park@capgemini.com",
+      "groups": [
+        "administrators",
+        "code_env_admin"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:a934475ac542966c:2e183eda65a7d081f343c03cb1dc12e719ed297d4edc791c73f69f9ec9b0b300b41b6e5e9727432c222527e3ca88126700a0f4d0406df626ae56c6861dd1c17e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Serene.Toh",
+      "displayName": "Serene Toh",
+      "email": "Serene.Toh@unilever.com",
+      "groups": [
+        "xx_pc",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:4037d74981cc43d4:8fec12c93244a5e65cf969bc0cf21fe027a435460aa2315e75ea2603c220a98977dc55f5a69684e7188213b3b10b4edd87e54915a22d35812055823f346ebe19",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dev.admin1",
+      "displayName": "Dev Admin 1",
+      "email": "devopsunilever.in@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:714f27ba2a58295c:dc3a43fc0a5060d446a02a3beb1754093ab778a9e4348534ed6c78faf2efc6c05cef086aaf6b1c107e9518273196f45ffeaf06457ba9c9ff39c278501fdb3694",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Girisa.Achaibar",
+      "displayName": "Girisa Achaibar",
+      "email": "Girisa.Achaibar@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:ce98fb94fb212388:61103ba73fcf42dc60302d2752cd408bba6eb869a5bbf84516e0bcf1066d3be3b5f03f6d7445b224af3e2d258bc9a3f57db57cb65fb452f3fb25973af8f57b4d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Dilek.Ozler",
+      "displayName": "Dilek Ozler",
+      "email": "Dilek.Ozler@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a60e1f7be5a99f91:bf1793d2ad892d26e9eae87bde1df94515a06f17bd1b0c6b9115b85927a32898b7c034a8cd46bc71201eca469a3f97900a149fad93b85497234bf47429b60298",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Daan.Landkroon",
+      "displayName": "Daan Landkroon",
+      "email": "Daan.Landkroon@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:fd13c726055dc4b8:5f1775f095c762e95d94f9bc187fb38b6007eedd509373da5ef1f062113bebaba162073e72cd96ebcd92076fce7cfe37fe70511f86a1edb12bc2fe06cf3488d8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Vladimir.Calderon",
+      "displayName": "Vladimir Calderon",
+      "email": "Vladimir.Calderon@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:2fe8658a6813dba0:71300b52cd3e3d07d59afcafc6c74b87ffe6b6f4605a5e55fd6bfefb464c400863e4eedb66296c19cb76e946b9c8adc51d76d435ecc158f36eb215dc431fb551",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Liselotte.Keizer",
+      "displayName": "Liselotte Keizer",
+      "email": "Liselotte.Keizer@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:64d01ef23b5e9a40:6b3e2011f0c4f114060b40c40333226395664f9b258c5cfa08524a094bd0e5c2c718b72fa06b7451e64963ba77450d1506191a808fed68f708ca9e2e696d930d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "thomas.broadhead",
+      "displayName": "Thomas Broadhead",
+      "email": "thomas.broadhead@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:68823150ca535f11:b76264532519b7deafefb2a61712a2a7bafbce87fa8294063c36970e53e2de7a0c9a1185a5a3927cf7636cfe2978c56fa58b69c48558e35c0d368720fde8d229",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Lindsey.Helbling",
+      "displayName": "Lindsey Helbling",
+      "email": "Lindsey.Helbling@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:19d7f130d5600e01:8ec066f1909412880b7c672dfc6f0d043d4902c5c256a5aab8aee081b3e409232ca7c115356fb91772c49a066c11da929172c97c557b287331d5762ae485fd5d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Marion.Jonville",
+      "displayName": "Marion Jonville",
+      "email": "Marion.Jonville@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:eb4d7bf835f5e7df:ad5391cecf9dc523bc4a60e1e4b31039700fdeac74dc9e4e44feba9bcc91715714de9accd27f0e4a9acc377bd81b84c4ae7217b9280c4b0fab2a21ab55e1eb02",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Eboni.Washington",
+      "displayName": "Eboni Washington",
+      "email": "eboni.washington@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:afb959e0eb62efa4:4a8b761020468f7be11a93c68a5675cf14909733d86cbcc5579841c723cf6ab1a2109cbe19e7dc62b7b2bf3123d70e6f2eed15bbd8043143feea65a2d52ecfe4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ankita.Shah",
+      "displayName": "Ankita Shah",
+      "email": "ankita.shah@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:402a0780ae5a61c9:67b8110a172b33da0e7cf086a796cfc36220c421cae7fadcb406db4e6a96df91b2190c844a11c787e6b6b665db5a8c747ac0f763162bf34cdfdfd9f6b5536cfd",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Miguel.Guido",
+      "displayName": "Miguel Guido",
+      "email": "miguel.guido@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1bca70f92a7d7a1c:d48908acb618820215f3baacc69fbe6cb672b35b3e41c74f6519e6c236222120cefc188390c7cfc5167fab590b18df347b7fc75389f644266c73207447e6c3e0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Adrian.Oruclar",
+      "displayName": "Adrian Oruclar",
+      "email": "adrian.oruclar@unilever.com",
+      "groups": [
+        "data_team",
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e22c1f04a18152ef:55a6d54aa2552355ae368ba494294bfef8e32d126b3e776347ffa65cc82fcf6cb7f2fca988d9b8819d60be17fa6e45cffca25a87bbf9c2406890b9d5e7aa5f81",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "myrte.bos",
+      "displayName": "Myrte Bos",
+      "email": "myrte.bos@capgemini.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c7299e7d01d427a5:93c283b2bb47cdc4f5761000cc5a9a7d1b442a1e7afeed8737e1f9875840bb032e21372e90d07e591a9015064308921870880f96d505ee78f69330318ae35c7f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "darren.saram",
+      "displayName": "Darren Saram",
+      "email": "Darren.saram@capgemini.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1f45903955521bd8:5efc4877639d5ff3c79441e13e955c489e2b90a9d35d0b7f9d453f292fbbbb2078c4f3e7c42af36562fa1257de995cf9855c10f801b698b2c18c2cdc94429198",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "adele.churchill",
+      "displayName": "Adele Churchill",
+      "email": "Adele.a.churchill@capgemini.com",
+      "groups": [
+        "administrators",
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:f26fb3d231577a0b:dd64f31339eefc7b5808d74e2d0bb9f734f6f1f36ce520fce67f78f9e2a4020c26875fb2656a7862421a1f56e5c79241e080b3cdbae998a353cb88a240e03547",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Chandan.Agarwal",
+      "displayName": "Chandan Agarwal",
+      "email": "Chandan.Agarwal@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:c38e6446143f75f1:c2f87d83611d050c6d93c2b9b9048870855177cc5e8ea8ccfae1baaeb5e812f5eebeba5e8326c95a45b418488ff898ede1603e81dff7a4bed801f9824fbcbb89",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "yashaswee.mane",
+      "displayName": "Yashaswee Mane",
+      "email": "yashaswee.mane@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f45f9cf7118f7e68:b775acb9f38f3b13f3bd281c91c4cf10356f8ce76a2c9fd764583d3dfde56a9732b50b15f7b808df4086c19f7dd56de0fe3c84c05c72a1b86b3d14e3e16fdd78",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ashish.chawla",
+      "displayName": "Ashish Chawla",
+      "email": "ashish.chawla@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:46e154b570102e5c:d6a420bb6e8ba3667019c530c8041469110b311471709449ae851dc3ed816e3f7d1b9b5dfdeebe38002f71cf31cd229ca0d993b5b8e069ac776003e164f4b362",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Nipun.tiku",
+      "displayName": "Nipun Tiku",
+      "email": "Nipun.tiku@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:7c83b06208ce690e:78ae389fc7184e848b987422a225ff4bd5d1128d486e4601dcdb90a3811a6f7a2f3734e04dd2e7fd41a215a411cb4c89339133e0ccf8cedcca608180d813700a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "abhishek.arekar",
+      "displayName": "Abhishek Arekar",
+      "email": "abhishek.arekar@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:5f7432f7374fb7f8:94b5f682510bafe8cd33fd68d8a4ec17d705c92ddc2904a7e4a7fc8ffb7e5cceeae2f0ea5f674d6641d39e6ed57eab1384b88f035ba46c3b37e90aba41899bd4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rahul.dsouza",
+      "displayName": "Rahul Dsouza",
+      "email": "rahul.dsouza@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:aa7fa5262ae3a2bc:d5fc39ccd6ddc4ae4f219794de0b7619fa42d69b007b1066ffb1588d9b7ed262b914e67319c0b7e08ca6d5eaa943e223ca7c967ea7100238ac25225e82eb5226",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "barnava.nandi",
+      "displayName": "Barnava Nandi",
+      "email": "barnava.nandi@unilever.com",
+      "groups": [
+        "administrators",
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:27eed70dfb1d48e0:efe0d3e2a37bf2a98df3b3aa13d0dcb432bce2782ffca012456735e806e81c75da05f4531d8e7f1cb040520f7e444519bc2c5d27e941752d819abf2a818ee1e6",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "upasana.bardhan",
+      "displayName": "Upasana Bardhan",
+      "email": "upasana.bardhan@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3c3fcec38be57f6f:ea08a6f730adf5ec697c3a2178be3bf8876d084263f2e638fcbebac606d82b2d5ece14eb500f0422b44c1148792a5f7d56b462ae6fb5865a0efb0086b288499b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "faizan.shaikh",
+      "displayName": "Faizan Shaikh",
+      "email": "faizan.shaikh@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d26e85589ae36ced:f97f3abdf8bc5aa9c015898b666cdf84c29f9ff3b79bc33064c0190770724013ff8a90678556a9ba4fb707d2b6addc1fa21625c4cff65e22a6dbac51c7213871",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dhara.thakkar",
+      "displayName": "Dhara Thakkar",
+      "email": "dhara.thakkar@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:edf0826281a42b24:d9e0cee384a367edb946710a2c18f12a25b9eb73ee76b4d75eeb22c30cc08475df1e28a59c1b635a54e42385356460298c2989900c315119f5c9c28656ce6b88",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "kashish.pathak",
+      "displayName": "Kashish Pathak",
+      "email": "kashish.pathak@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a3698f146740305e:9ce3054ba9db537f75bfa89793c3c2334efd160e169a414d27ea61c19f97e52d162508a344e1b1444a4fcefddf3a2325ff015467813ae332d34720a857879cd8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "aharon.pinto",
+      "displayName": "aharon pinto",
+      "email": "aharon.pinto@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6a3c0dba0c2b771b:66d6a2657a16616ee1ef9266de462ef50099ce182765b3d7d0619423c1f2346d2a1950dfbe77e6ec60664a7fa4bc34f72bb02feda083585afc02332c12662f8e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "neha.chavan",
+      "displayName": "neha.chavan",
+      "email": "neha.chavan@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:dd15cf45b63662a6:d74be9f7e8a4ef7a6eac950127babd0c02522e47982d593ac0affc681140874585fce53f5da5ee7aa87ba2f199998118e18ee2b81fe9820f50113dd40dc0b7e0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "samuele.becchetti",
+      "displayName": "Samuele Becchetti",
+      "email": "Samuele.Becchetti@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c40075ca8c021ca7:f7d0c09cc8be9933b74fcb5ec7cabd008e47bb10b2acefd324fd6dd46f76f6eac5a2a3f987dd015552703813c529116810db3001dd4931a50ea432f67cd535fa",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "pawan.joshi",
+      "displayName": "Pawan Joshi",
+      "email": "pawan.joshi@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:791061ba3230b4ca:265b383c4d50ea1f5a37a7f1b88b8d58b05be22d5b774484bfc6ced1f9d1c2a25f818f70ef910f8b30b2bd8e530d0a42aa97b8f021fe8578e9f749e8af108db0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "lukas.dobrovsky",
+      "displayName": "Lukas Dobrovsky",
+      "email": "lukas.dobrovsky@capgemini.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:f21278c919e33add:002c244489694ec5948144124934aca070a62496a5ab49c59f30a22c909e755162ed5941af8c98f7b280fa82771cd07e7a25f4024c3c7f4c646c90ad99020610",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "james.dang",
+      "displayName": "James Dang",
+      "email": "James.Dang@unilever.com",
+      "groups": [
+        "xx_pc",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:dcde376958334b7f:3a1ee51b6f24f65b6f55207fd2f43fa95126749426f63fa77ee747c5e457b65afc7a634f4d6dfbbc2baae4180da15270f7deb16215750e077cb20c0d180456b9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ailyne.halim",
+      "displayName": "Ailyne Halim",
+      "email": "Ailyne.halim@unilever.com",
+      "groups": [
+        "xx_pc",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:82e81ec3eff33e73:a6e4e282c639ef00aafff15636a29b7432b26568f550b12f37f4d1c976e08032a33fcebd3e8d05971e44262ec573946c61173f604c145da1aba7f9ca4de736ca",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ming.li",
+      "displayName": "Ming Li",
+      "email": "Ming.x.Li@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:d9840d646f83a3bf:58827cff62d1a71cc059ae3f69b64bc6e51bcd4484029639fe40c324886732ca94f70e53122eb35ce24f1999bf211da19b59d865eb4696cc32c1871f69b9e344",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ashish.Bahl2",
+      "displayName": "Ashish Bahl",
+      "email": "Ashish.Bahl2@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:93f3947f1f75b3b9:114dbb23f1f1fc6e7f6e4aa43b876aeede9013949f3bd90943d4b6f3d18c9d0a7eed17eefd50814449de1c0c3ad61d0f6e807d3ae6c8307bfc5c3508a3371101",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ami.Maryam",
+      "displayName": "Ami Maryam",
+      "email": "Ami.Maryam@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e3496b64da95a898:f8868e857a41ecaf17744da337fd8caffba282172ad5f4d7bf7d400f1974b922afeb213f4127c1b63ad63015a365711b974e710ced4d97dcb4971f2499eabf15",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Wilson.Salim",
+      "displayName": "Wilson Salim",
+      "email": "Wilson.Salim@unilever.com",
+      "groups": [
+        "xx_domestos_unicef",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:28cd38f39a22b7f4:9be24ea727d23d3eaff15a881bc4bbc1a117325e0bb5ebc925d48d60d43a17b64d5aac446fba6da07d575bbf7f99ee6ed0ff708372f998ca7168119ca52a0cdd",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Gilang.Putra",
+      "displayName": "Gilang Putra",
+      "email": "Gilang.Putra@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6c30da4c02dfba76:b647ab9e3e86fe76ecf8f762115f87be0a248e524b6c1304a31276e797267f75f37fae8d288c1199fcbc86f3a8fe7551cfcbf643a648af8c6a3178bb788a0504",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Criselle.Santiago",
+      "displayName": "Criselle Santiago",
+      "email": "Criselle.Santiago@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:48f53863cde0445e:2849ad7668db9b5910f511c7529896eaf42597a1018a921d1dfcc98a194c08714b1916f0d7b96fb19cdb0c744c259e58e06e0398724df479694da0f0a231c82a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Vida.Cruz",
+      "displayName": "Vida Cruz",
+      "email": "Vida.Cruz@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:81627f1ca783f8a9:d41b18322530af7c3d9c5717cf53431c0fa30658c250086e9b108d59b0dad5a31ca340ed616d84576a29bf44b71eb9eb73ffc709917e1a3c63fed0db6c5bc24b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Vorasaya.Suvanatap",
+      "displayName": "Vorasaya Suvanatap",
+      "email": "Vorasaya.Suvanatap@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:576319104e25a777:71f52096e7374bce96f4df968be79de509f59920c9589be1bcbe1b59609bb82848270870dc376ebcba6a58e41e8313fef1f7343d40e655335d2ede19d4c64bf2",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Visuta.Pruksananonda",
+      "displayName": "Visuta Pruksananonda",
+      "email": "Visuta.Pruksananonda@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a81c4602e94b9554:13c4ca367830d85f5e118d593bb4512c799ca9e792b81f3951c5638ed2e99c9a29172862e2421295ef2b40f175630210b0dbab536ac26cf08535bbffefaa7b77",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ng-Vu-Dan.Huyen",
+      "displayName": "NgVuDan Huyen",
+      "email": "Ng-Vu-Dan.Huyen@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:69ec7d745d2c3285:2a7c7d5f3ec2f8315358fc4c116c51c5ddb885706d5594a7b47705669c665f8abf6262da7ca042ef0297ccb537272c3e2f348c983914c37adc37501e756686a8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Tricia.Ngiam",
+      "displayName": "Tricia Ngiam",
+      "email": "Tricia.Ngiam@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:175c4748fd5b0057:c5b58ee97e31d9b86402b00440b5503d3585298a29443d61403815d71af01301dd2c8daba471da247d9f6b49e6ca3ff4b47612c795f37626aee386b6d9bc6919",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Rong.Chen-Pike",
+      "displayName": "Rong  ChenPike",
+      "email": "Rong.Chen-Pike@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:814487951eafecbc:53cb6eb1ecc303fe87c4205c3f37c504b12ca87f413759436a8bd522f170aeafbb5b10c40e67a2fc04820dfae3edec5c152b2353f6d9ddedf57377e0638b74f1",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Pearleen.Goh",
+      "displayName": "Pearleen Goh",
+      "email": "Pearleen.Goh@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:36535708d81e24e0:db69857aee6620ed00d12f947e9dc5ee1d060b47a6e3f063333510eda4a215335554b008e4f2443152061fb305cf624a8b584f309d549bc9af24a645a6a66a7c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "yayoi.yoshida",
+      "displayName": "yayoi.yoshida",
+      "email": "yayoi.yoshida@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:7e7c7d539922b777:5706c516c03b387b843ab59ab9d918c89fc1983d9825a01201fa0c947e0bc2036cdb228384c1a252a5d4f15f58d5d1f3d60832dcbc19837a6a6ef8a745684a79",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "winnie.shen",
+      "displayName": "winnie.shen",
+      "email": "winnie.shen@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1158e8d6213cc00a:f97f00e204535e752dd22248a9d1c4dc8977bccfc4159b04a555b022efb6f0ec85dd3c946c33cf4c355be6ec598b555a6eb1935815a36adc5262cf6f3e570113",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "stephanie.wee",
+      "displayName": "stephanie.wee",
+      "email": "stephanie.wee@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:2febad9db4800d77:22bf01b3360d033e3e9ae5ed9becc183d26186512673d19be6ecfb0880f7b02d4bfb4be27525e37a8c595ee04fa3b5344933ff77a9eefb041cec24b141c5edef",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "james.parsons",
+      "displayName": "James Parsons",
+      "email": "James.Parsons@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0db18659f6d99193:c4ecf4e2ee51d5d490c6e9ce373890aa008145fab4b59d9ce969f30208d3f996d5e6111c01ae86c3c0db38d2d8626518779bd945caf9aa3eaaa18f78d25ff4c2",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "marzena.kropisz",
+      "displayName": "Marzena Kropisz",
+      "email": "Marzena.Kropisz@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:4d89cb921923a499:8fa424b1507289997e78dc5110c16427cf46ccde321513985842dee7bad7bb17b0e6ef23f7288b1767e3174070351052482972a9e5eff998d2dad5af4b59e5c3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jiacheng.fu",
+      "displayName": "jiacheng.fu",
+      "email": "jiacheng.fu@capgemini.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:24aff6833e7056b0:4beafbf8ba298f79c17d0b265b4cd7dff1c87e69929a6fead86af4e21cacaa1dfb413012a51203e4ff9ed254090bce835d7b9a93e69d2e030e1b03f532237ca5",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "fatima.akhter",
+      "displayName": "Fatima Akhter",
+      "email": "fatima.akhter@capgemini.com",
+      "groups": [
+        "administrators"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:82b7828584897100:7581431f88de033688f767d82093fd6bf16df3df00ee462da4f9a133771dc3e70e811c45e53c36b58d54b4c5b8434a3b34747085ed9bf6a5692d3948eb3693af",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "julia.farkas",
+      "displayName": "julia.farkas@unilever.com",
+      "email": "Julia Farkas",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6e06a0fbe762ea5a:0c9cba5fe596f9ca3b39b3892d0de7b28d50bc9ec3dd233f28a0a6933e10f2a001d62d85c9bad516c82168ffa5c288a4f92fc5cb1d82041b893fc90ae39708e9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sophie",
+      "displayName": "sophie.luckett",
+      "email": "sophie.luckett@unilever.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:eb753b459914fde5:ab70996fd79adaca874446db470462389f432ff405d9e40471ff24068c9bb6e0cd96a853d1e1e631cf7b1d01829ec25413cca07027336e778f5dba6e22bbd6ca",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Margaret.Huynh",
+      "displayName": "Margaret Huynh",
+      "email": "Margaret.Huynh@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c4c266f8a06df5e2:9226542bfdb7f8bc4a6962a243c2e63ef11290e0ed3434ea931fdcc4d0e98806688ce9ed66644bcbc84d81682dcbe9d23d211d012ada526e0a3bec3b1dee9bf7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Emmanouil.Androulakis",
+      "displayName": "Emmanouil Androulakis",
+      "email": "Emmanouil.Androulakis@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:959bceb7cce82c47:f5bca4964096b223dc8a4d20ba9dde04342e72fb248a00a0defc1d96837c9264c3564f1c3babce042a9ebb5419119b1137d18df84f38a2c2bb3ad578401a4339",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Silvia.Danaj",
+      "displayName": "Silvia Danaj",
+      "email": "Silvia.Danaj@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b74e4adb029ea8c1:ffea5eb7e658b96642cbb54482f67094067dd13b861020d5b212536907bd72f16ecd4cb6abd07deebf91987f4a6aa52ee73bc2698f97c573adf74cd73330292f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Marco.Elumba",
+      "displayName": "Marco Elumba",
+      "email": "Marco.Elumba@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:f2c15f39dd4c5e3e:19821007ab4ea4dd6420a026d9b7cf2487834492d3593808be5080796cfa534cee58428596d8eb6a435fcb6d54beec95c893305806f038b82739a7ab3e8d1faf",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "alex.constantinou",
+      "displayName": "Alex Constantinou",
+      "email": "alex.constantinou@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:d9d71701cc7043f4:05d020ea75bbcc06be5fed52c21c706859bc59e2cd0c3ca1ced79137ed78091c163499c60429f72125560bd5e7b470908aa1b3afc713544df822a8da83e7ee6e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "amber.haktanir",
+      "displayName": "Amber Haktanir",
+      "email": "amber.haktanir@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:25f9123574baf95f:b28e9228ab72959200ac91ddb6e905857d9eeb3eb86ed37da81dc08c6632f58fe2ccdfc863c5e01770198b475e61b88b44e025f55c6e04decf16a91348d0f85b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "angelina.yue",
+      "displayName": "Angelina Yue",
+      "email": "angelina.yue@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a2e91998804a8692:d7ce732e37097349e7cd3467a47a7ece1d7aa16edf9f723c97fcb41c9251264eb4e2d3cb2572655612259874b9a7df5259b63c1ee954c098aa4e52b5e0029ab0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "bronte.sutherland",
+      "displayName": "Bronte Sutherland",
+      "email": "bronte.sutherland@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "search"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f3d1cc43217e349d:6c60a6af2882dfc39a26d7197e69c72ad8b7903cbc3f594c937c705568ed4710bf04d4f98d8d856874b68d05244628caaadd2886eeeac4178be49788d7fc6262",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "danielle.tresise",
+      "displayName": "Danielle Tresise",
+      "email": "danielle.tresise@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:2a7ad208fcd9e8ee:bf4fe7fce7b4b6a447bbe098b8678aa226a6bc497740dfbb6ef2d15331555b02b65420c4c58ea6513c9ac5a01c2d1a828aa288d033e5e98b2e99c896cb1abb55",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "floris-van-der.rhee",
+      "displayName": "Floris vander Rhee",
+      "email": "Floris-van-der.Rhee@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:64222222ce3a0839:652269413af31880012bc8398f407a350c5bcafdf36734c72702c134a1d265235ac8f7d987a48fa920a5c98a379ec0313c9d7358a071d1e791b5cbc41f9da46c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jane.dixon",
+      "displayName": "Jane Dixon",
+      "email": "jane.dixon@unilever.com",
+      "groups": [
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c9ef5397fe75b187:efba6bd08be7dd7af2a55ec2c3bda5a7a05d84b9991d099770f6c8a6537e81c2e8cfc518ae720d533acebf17af61c8c6dd4decad2ede1a05d83aa530f44c7d50",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "janis.schepers",
+      "displayName": "Janis Schepers",
+      "email": "janis.schepers@pepsico.com",
+      "groups": [
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0a1ee83863a4f25c:59da41a8eea7b08075b83349397f1cd8484b3e369962a7dbdf6392d5a682b90c370dfe73e6563f5aa593d59b928b22dfb3c82baab8acf32df9a1f53d01e663ff",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "lauren.payne",
+      "displayName": "Lauren Payne",
+      "email": "lauren.payne@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:cafa6a602d1e9ef1:3a2ffaf2e52c20dba56eb20c167586b90b33af71331e39b3abf0f138aeab4daab5718faa1291872115809e264ee9d5cf7339985565a096d4a7daafe641224f66",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "maria.friberg",
+      "displayName": "Maria Friberg",
+      "email": "Maria.Friberg@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:9aa5df7acbfe7c88:ebe46b956b54205b0864e8778e30a1c727c83efe4b4b6212ed6f970c17e49b25236fd4b5d1aa8792c3e200e0eecc320f7498fbaf46ac5df77df10a47548351f3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ollie.howes",
+      "displayName": "Ollie Howes",
+      "email": "ollie.howes@unilever.com",
+      "groups": [
+        "xx_hc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:451b5ee8a848d548:f948e3018e840e18ee5e6cd93738cf161564a5ea67da3bd884f1fc1968083557c358a49be5fa6676c01bb19070703ae07dfc1178bc2e17491f9c2a7d5855ca66",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "yasemin.senol",
+      "displayName": "Yasemin.Senol",
+      "email": "Yasemin.Senol@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0a33b4b90dc366ee:b32ac94c31b3ce899bf1e9ad899cc5411c7f077ccb5e9524fa95d679750368f4acf2001b02cf7727c2535ac49092df3ef8f419bcb923420b98c0165d885a2625",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "victor.ignatiuc",
+      "displayName": "Victor Ignatiuc",
+      "email": "victor.ignatiuc@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:6cb9b036b4574087:77161ebfea6816b06eaa4b7d18506d95e57512c8ceb11c00397f9bac2f85cc76eae709ade0ed3c26cb79a057b2ab904f4037092f126eb1137dfa160f25363f4a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tina.diep",
+      "displayName": "Tina Diep",
+      "email": "tina.diep@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:311c1e53ad89feb0:0217d57a5849565d2ebe57b99f07cc109c15e7decfe9a29b8e242d84f745164f281d763256ac742224a827455924e5821e94b98502ce09d2a9ab5f08d595548f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "simba.chakaingesu",
+      "displayName": "Simba Chakaingesu",
+      "email": "Simba.Chakaingesu@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b5220fd5ec78c07b:7c6df962f8def4d3e51c590f222f761bf19e23569526802d5c06891a5b3a15b33d9f42c060b04516e28e73e2683f81dfe84eacca2354ec033c37b32b02104be8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rabab.soliman",
+      "displayName": "Rabab Soliman",
+      "email": "rabab.soliman@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:be85fb3932501ce2:78a8cb3554bb41cf57fac8f268bf9404df0c4fa2f56b9affa195958868db020470b28eb9fde11a7a8be0abede8d58ece0c103695e0206a690e75f7c6d75ce4bd",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mem.fidanboylu",
+      "displayName": "Mem Fidanboylu",
+      "email": "Mem.Fidanboylu@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:787dbab9e4c8ac27:20fcbe16bfa3d81e483adaca15b52e7eeec91768ab4cdd3a170b86cbe647d2288353ece21b91ca79300627c89cb5844ba8bdf99f57534ec7469370956ea5d4f3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "maria.nagri",
+      "displayName": "Maria Nagri",
+      "email": "Maria.Nagri@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:08a36e71ac312c72:b78fe000b1c3d2b234cb0ac2227d58d0f0b3bf56b7315244beefecba09fe4dd3db4cba55e59820b52a8977b141002492dee98c43330cd6b83cb9e980fa14ccdb",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "admin",
+      "displayName": "PDC Admin",
+      "email": "yann.hempstead@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "search"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "ADMIN",
+      "password": "pbkdf2:10000:24fa66790fcf06d3:b863b117dc39b75a30f42c22d1cdc46871f62d994a8c89acc56e02f0ecd433491977a6836c7d440865ffe6aa609e081e326f0e88e2486ae65049dae089455335",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "edward.gurton",
+      "displayName": "Edward Gurton",
+      "email": "edward.gurton@mavens.co.uk",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3a39302e7cd943c4:7e270e70aecd00acf09616d398d9a7bd4e78ed602b0f21944e9aa91f99f53f9b670ea7545913ea51c6756398554b3b215722b3390aaf5208d4d8cca9f6e57874",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Stefan.platteau",
+      "displayName": "Stefan Platteau",
+      "email": "Stefan.platteau@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:4a288d5269bafeeb:241c926f22c50df1d1ddba3b51f885d9129ec11dfa9304220067b4336a18da7f5f882fce964d8f1df7d3a61c6e0d6599455d83d2cbbb06e06a3de139b5df2647",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "priyam.joshi",
+      "displayName": "Priyam.Joshi",
+      "email": "Priyam.Joshi@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:95356ba5c41655d8:91ba68a32e1dfa1ef74c59b277a12234b7daef9601459684599c595fbd1471608a9a80d1a865ff899b3662a379e2b6dcc4fdeb7a99d9d0c015a3ad22b87e3019",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sebastiaan.jansen",
+      "displayName": "Sebastiaan Jansen",
+      "email": "sebastiaan.jansen@unilever.com",
+      "groups": [
+        "administrators",
+        "eu_pdc",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0434950a602f4f67:d89a1df6b2d047a66a218572a02d11b094ee4b32302d1ed888058f7d92ddae4f7fa19bfa90e0e04c02e31ad143784b40d72080f5102630e6f0bf75c40f78f06f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Samuel.Barkaway",
+      "displayName": "Sam Barkaway",
+      "email": "Samuel.Barkaway@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:f2eedf8ddf030035:c5661a760f1215fbc493ad1e60def7a74e747085b7228b712c03fe895b66c84a38ce1d79760ba9bb98d9be7ae526eb046824a56b5d93f62d4e136a40befca3f4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "nejla.comert",
+      "displayName": "Nejla Comert",
+      "email": "nejla.comert@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:52a264e0dfa2ff9b:7b7cb9e279f8a94778247d111581a50265009404e1736a94935acbb5f3c661dc1e2bd7a8ab425845a92acfc0dd1469c06ea5384713ff0c54f2a4139fec8fa3f0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "matthew.hull",
+      "displayName": "Matthew Hull",
+      "email": "matthew.hull@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:1ae660e0867ad12e:af611d15305180f0e595553fada85e6cab49c2934557772495defe6e83a2ba16dc1689eee643a400fa4a05428e15b72ee2f16202ca4c03779126c7d2d65c6e5e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sanjeev.chandran",
+      "displayName": "Sanjeev Chandran",
+      "email": "Sanjeev.Chandran@unilever.com",
+      "groups": [
+        "administrators",
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:6a4fb0f3f02ebec1:2117f1710a64ab4a2924505163759e6c328219cdeafe54f5e32c351d58e0f7d97e5e44c217425a79b12376e8e85c5837c43206ad01e36a38da02716181eb6a90",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "willianto.tobagus",
+      "displayName": "Willianto Tobagus",
+      "email": "Willianto.Tobagus@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:53f0ba9ebf546d35:2d23b55e058cbc7d39fe298a3c07d09dcc7a157d1532c2fcdbc8543fd17d14026105ac8c6240fa6f2f8e2f749763ea97d73d0d9fddbf9d445ac02fe5148b39b9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "elaina.sutiono",
+      "displayName": "Elaina Sutiono",
+      "email": "Elaina.Sutiono@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1e4ccbc7578e6abb:37c2db087e2383bd0bc4793a4a9ba99b15275cf1edbcc07b13047e4bf29372f70079d7bac1cdf0601a95534715558b05bba46a425a2b52b56cc1a4eaa9f9f25d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "amharika.chu-umnart",
+      "displayName": "Amharika Chu Umnart",
+      "email": "Amharika.Chu-umnart@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:534696fb831f04c9:f5ded85ccc71bcfba1f2d15337ce71477fa4fbe6e1dbfd818050dbfda8f1c02fed4545a6882549c30243b44a07c1ab8354177db9792d6f95bda2d9f1410b77a0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "aditya.joshi",
+      "displayName": "Aditya Joshi",
+      "email": "Aditya.Joshi@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:9e16841af6065520:d6520bf12a50dd452d348a0dd742fc35195d282b471b793a6f017b8fa1fdc49187ed4d187a5ae483667669b59d378180aa783ff47dee0c7979fff60502f70ff0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jaswinder.dhillon",
+      "displayName": "Jaswinder Dhillon",
+      "email": "Jaswinder.Dhillon@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:5793dc1e85626e2d:b0368df3387f5a4ec08876c331cdef7107cc494858e5490391fbbf9b292b252575f70f31c6b5b62d24a800db94ede64660a06abf73d2a10113d0e0971121d846",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "valeska.madazio",
+      "displayName": "Valeska Madazio",
+      "email": "Valeska.Madazio@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ef18ef7772320291:621e3681f827315b3e158b431d882ee1a735c72bd5eef7cf3a58c1f36917abdd9d790aa11138c4a25d1a7a470a7355b952e80057b39f692d8980f560de2ba74a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "soraia.delcarlo",
+      "displayName": "Soraia Delcarlo",
+      "email": "Soraia.Delcarlo@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:8566bacc71ab759a:b6e11b5b3db45eb908d403f6a3cdcd0dad1ca33ba21fb6716a9e7457038d941760997bd6daeabf4149bc6df17ee126cb6f422a6fd5d51d4df30697d68cd1e17f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "anna.daniel",
+      "displayName": "Anna Daniel",
+      "email": "Anna.Daniel@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:eca86a5aeae6061a:bf301f821de0a7f3de349d79ab1b2ea31f104bee96ce6c3054e29416da0d88e9563c2bd15f23d261ae12305e20c11e93f7f07057e4c27c638a6e745669921803",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "leonardo.bermudes",
+      "displayName": "Leonardo Bermudes",
+      "email": "Leonardo.Bermudes@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:190c3e2462801e83:7cafb0fad1ff22ddae2c41c3706261a0e5b291ff5fe7ac07877b7061224c389a0ed85cd4b749a29a80aff71099502726f8a6644dfba14c0fb8d8de0b0a91eba4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rodolfo.freitas",
+      "displayName": "Rodolfo Freitas",
+      "email": "Rodolfo.Freitas@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:07a58cd3bea82c43:7b7bb91051b86dc656f67aa329623e8aa082594c9ae752b533ef2a6f8a6086b4f91e7c55345bfe8a6dc35a15746636bd85dda54774b6e54b3b6ce5f6add5b11e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "gabriela.podhorzer",
+      "displayName": "Gabriela Podhorzer",
+      "email": "Gabriela.Podhorzer@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ba8ca3318397c51f:f5a8f4cda82ee8ce1d4946562067fc90f7db824090c16be73ab1209067ac1185378e66056386c05589f9f7f3b6470ae2c9e80547710da7318fe2daf6e5edc278",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "constanza.brizzi",
+      "displayName": "Constanza Brizzi",
+      "email": "Constanza.Brizzi@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:205020660773d7f4:a544bf7fe5f5ec4a4bc512b6527fce66a0cd959984111ea62fa91070eebd02305ecf6767bc096eade85fb585f58fb52988c8f6999ac860c789467524f2aa9be7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "carolina.zaczac",
+      "displayName": "Carolina Zaczac",
+      "email": "carolina.zaczac@mavens.co.uk",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:41c4f0fb38232018:12e1321d4cfb65eeed422c962be517ac3848ca355c6649f16e10eb981ea6497e9a125e5d263f5af5b8e1176c7e63c1ab36b51f6f6073dc3ec285fd92c91079ef",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "bruno.leardine",
+      "displayName": "Bruno Leardine",
+      "email": "bruno.leardine@mavens.co.uk",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:ff7c4b2a77f8049f:1c0c1403e516c352f5fe083919b9488e0fba7a1e1734aa0303ac0fae05856e3b8ca0a4d88f261ad36363a078c4b9793a09a0a1b2caa44db604a8394b88fe6173",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rafael.arrigoni",
+      "displayName": "Rafael Arrigoni",
+      "email": "rafael.arrigoni@mavens.co.uk",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f1048296f235cf29:e2bc4082541556dd82d4d5f6f7b1e054b0f99099e017abca181a3fac845df4d523bfd91c169e9877b566c0526abc431840c29b3efab2b3132ff019cabde17f49",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "andre.izelli",
+      "displayName": "Andre Izelli",
+      "email": "andre.izelli@mavens.co.uk",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:98bb36d9a4a96ea4:14f0a35cb661e3e988d2a86514e0823cc810b80361255772b5a08b8aa877fb471979d1a0f4ff6b3b29503826a44d413f59751e8cb728c96405e4154368fad1db",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "richard.lawrence",
+      "displayName": "Richard Lawrence",
+      "email": "richard.lawrence@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:94296021e1b3aa71:a9e28a9fbc6024ba42f09ced4b029b71b5b5eb73d14faa7d38a25c638a7509d2de0d1f0366d9e8c19a6e913dfacafd6a858a2f040bb6aea8283cce315b8bf149",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mohmmoud.muthana",
+      "displayName": "Mohmmoud Muthana",
+      "email": "Mohmmoud.Muthana@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:aef1dfa54f67a262:e5a794dfefb6f71d1ea769bdaa249125064970ad1217692b860dbe54f90aaef0dfd8440c77024658336788ec02db1334505d4b0a3c35a6036373e0d133600aa4",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "anda.ziemele",
+      "displayName": "Anda Ziemele",
+      "email": "anda.ziemele@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:d894e80fd795abb8:00e56798aac6286c8c911a821eaa6fdaa5d9507565c7b6f1886cd133a6ba8422e827a7ade23fd172be095be7fb4c30ca214db8f6b6ac665e666852df24fef496",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "zoltan.khedher",
+      "displayName": "Zoltan Khedher",
+      "email": "Zoltan.Khedher@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:45ecb72c491a7275:e31119bfaa06487ed3bf0ff0a0b2a4b27714536467e24941d7d1ab55fd1d0fc20283c21ce16dbd5010964c7a08effe7cacf55a4b048f5d2ff66166b688308200",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sebastiaan-de.leeuw",
+      "displayName": "Sebastiaan de Leeuw",
+      "email": "Sebastiaan-de.Leeuw@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0b41b639710737e2:5a344bd85624ce303dcab89f20c0da38fd78cc159092b1446d9053224f9d70d0da6dae63ef1b3787e901a3e91aad71e5a936cc62e022e1762e2571e01f5c5bbd",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sara.ferreira",
+      "displayName": "Sara Ferreira",
+      "email": "Sara.Ferreira@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a99a8c305807c25e:e1907695303d7e17d7bca2100a1d0773537cbbe9c22be77b58df05bcfbd84176d0ca0c81a06d2315ba44782a4efe72b8abd7c50992c1a5df29afd40697771d19",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jack.nicholas",
+      "displayName": "Jack Nicholas",
+      "email": "Jack.Nicholas@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:4141e1f7a30bc07a:31d8614325908b2167a236a7340f2a55d21b0f96d00ba0d22ba4e69eab68d7fd22dfb379ecf23b31db810e9c1a4e60815e829a958190256b9212f1e271fe32d7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "amr.oghly",
+      "displayName": "Amr Oghly",
+      "email": "Amr.Oghly@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:aa8ba7d6619bd89a:781582c2827cb81568e67f8515757d3d1eaaf8389d38b1c99034a4204c0edaeaf82177517ff11d440b35c9d11a4832eeec455fed214cb8575b211441ab51c3d7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "marthe.teusch",
+      "displayName": "Marthe Teusch",
+      "email": "Marthe.Teusch@unilever.com",
+      "groups": [
+        "data_team",
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d76b43ec612c6ad7:7cfb18a66daa529be00da9f1f141ad136428c9cb9420b4cbb3887f435c5db5a74b204eb5c162294b83f63d9feb3c1b8c6e709aeb699cf6a236632b13c7b50650",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "marta.antosz",
+      "displayName": "Marta Antosz",
+      "email": "Marta.Antosz@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:12b25d0405965387:3b3e97b1641842ba0238c7e95eecb7586fb692825200a283b9bfa23ddb66ce5c7efa69ec598d6c60d0a3242a98c19a2d353cfb68dd98b1ad08a6b227087eda23",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "claudio.calvino",
+      "displayName": "Claudio Calvino",
+      "email": "claudio.calvino@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:86908e7172a9f7f1:de8f685b40ef01885fd976f439f4065c66cb3be5be0982331686dbf748f2a1d8acdce6a7d78bfdb375ff520c41e89614177541f26c5204b3fd5d3664e1b727f9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "habib.alam",
+      "displayName": "Habib Alam",
+      "email": "habib.alam@capgemini.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c6b928b4e7a36e01:03c1b017dba3fbc90db8ca8e18a8a3289b77021f3a25e58a821b61dd22f4575ec35f3e9eb6bca97cd749aa030a824e4df0c937100beed80ee1c50d73cc5cfdd3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tarek.hassan",
+      "displayName": "Tarek Hassan",
+      "email": "Tarek.Hassan@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:eef0cd213351ef04:52a25df352b3c87e5c1018a8b6607bf623bb85d3fe2949940c8ac394227dbcb133071fdc1239a2a43815e35d1ebb6789d59b82afcf40c30503cd919a98a0d7eb",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jooyoung.noh",
+      "displayName": "Jooyoung Noh",
+      "email": "Jooyoung.Noh@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f8de9bac88aef429:b4d929f7c9b0fcfa75aff59cbfcd0bf7affdf3c057f6e1ceb4b89f8fb50dbb5c72740707043eafc59f008662354c8b19f7ec0f07c0d1e422a183fb30388b8253",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "nuria.montero",
+      "displayName": "Nuria Montero",
+      "email": "Nuria.Montero@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:348da7f2eb285e37:3520121061389fd93b37ef44d56395bdf2e4caf96c1bde9e02b93a73c0fe179770ad8d211756db03ea5ed24c507ea13f71d83e37ae4686ac0c45dc749d5b07fc",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "craig.fawcett",
+      "displayName": "Craig Fawcett",
+      "email": "Craig.Fawcett@unilever.com",
+      "groups": [
+        "xx_food"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a9789fee6e26a48c:7ae5f5b75e13534b9beea3f4acddfb12c14c4989f43dab207d756a45a164b82373194c68a086685b3f25e36568c6ce63f185b84e6d1f7d7f976a955b20c1c225",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "james.thurm",
+      "displayName": "James Thurm",
+      "email": "james.thurm@mavens.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:9023495fec06994d:de9fb72894ae42e9b9184fda30db7ace8ba94dee5b869c36bcdc3a43ca0376545dc7d0dbda572d05338a4d6acdee4ba9c9bb2410d2ee92bfb80c6826b6d04fe9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Ekasit.Kanchanapinyokul",
+      "displayName": "Ekasit Kanchanapinyokul",
+      "email": "Ekasit.Kanchanapinyokul@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ff40552067295804:f62245dcf17ccdb06a9f3a5e8f39753909d4034b3da671be768cbe3a00031b3f87508320a00384a1e9b1874254a457e3d3239ffc3f03b3f6eb4ca6c1a585bf73",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Mel.Hunt",
+      "displayName": "Mel Hunt",
+      "email": "Mel.Hunt@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e797f0190acddaad:443574a020cf74bd6727fb47212df0eee840e936da4f16cae831a0093645e0341f974d8769ad9567b9ac9f74deb9843641cb1e8979348884030a83777031c397",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mia.mayer",
+      "displayName": "Mia Mayer",
+      "email": "mia.mayer@capgemini.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:7e63189ef7e61ddc:abf67f22868fbea320fe2a84a08cd3de9841f856500991b2f3edb9bdd30b95816db06176d69543622b0accd24eff7762447fde884b235045bfe312a1550d3351",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tom.johnson",
+      "displayName": "Tom Johnson",
+      "email": "Tom.Johnson@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:7e05b8ce15fe9b5e:78bc3388df3c2dc710e4d31a70c456f689590278269c782ed97f3332d58f4c5573392a3433c8993973d60b6801121c46008bcee53306c2439aeadc7d87113e96",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "spencer.muparutsa",
+      "displayName": "Spencer Muparutsa",
+      "email": "Spencer.Muparutsa@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f8f81aa243638750:302ecfe1073fc93894f1700e6e40288aadfec7756b574f66edbb75316d9220b1c630cb08453f8f243530054e4847f0f2bbed8fed7a947ac23b667ce9ce797957",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "silvia.faloni",
+      "displayName": "Silvia Faloni",
+      "email": "Silvia.Faloni@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d8d42eae5d7a2d40:8950ffaedd3160413c99bc25e78fee965ee60c117d1f6d47287e3ad933c87a191d9bd7bfda6fc3c0a7178011c69b382786e402b96157e9f9bd06fe1f91f8dc6a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "richard.seabrook",
+      "displayName": "Richard Seabrook",
+      "email": "Richard.Seabrook@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ec25bd62ff4c0471:82c84fc5fe17fbd54c69f5971bcfdc934e95c0e80a0443672788382beaeb14d6bf45189d7bf15ca1c87d33e06e629c20e1aeae080abad3fbd10bdc5982e97731",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "reshma.pancholi",
+      "displayName": "Reshma Pancholi",
+      "email": "Reshma.Pancholi@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a9ab2549d2e0205d:a6222a4fd6558ce5df321fd897294956c172631baf47d133a638b32869c16d7d6c8651f69e898033fc8d8200f66e0c419a8c696e6cf0e68efe5c4412a5150c6f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rebecca.harper",
+      "displayName": "Rebecca Harper",
+      "email": "Rebecca.Harper@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:7d40832db529dfa9:8c38bd2abf66898d28cc6d0f4db6a9069568a2af17b80e9c62e9fd055d274207c2e7853f64645143841ceb57ddff4e1fe62dd43d56f46aa0f3663ba14a45d9a8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "neshoan.mujtaba",
+      "displayName": "Neshoan Mujtaba",
+      "email": "Neshoan.mujtaba@Unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d7742b4d51124bcc:958a094f58c0f47e1933933271ca218194fc95461dc928a7d2592915c1046b52105181c3aa1b245f07337fb725159f35b47f7047a980aaac5d478a10e2772211",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "murray.baillie",
+      "displayName": "Murray Baillie",
+      "email": "Murray.Baillie@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:195a0b988f828f49:7bc48360ad743826109543940f1f62a485d73581f8a1c0ce107eaba1ae5b6fa043e8169871641a9627035e58d1cab0302fa7d4e247fc1f90eca1e080ef2022d5",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "morgane.glorion",
+      "displayName": "Morgane Glorion",
+      "email": "Morgane.Glorion@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a268e27408818849:73e5b285b057df59289d7012c16ddd766d0b2a1cb357fadbe955c7dda5b57544fc35c8c5c2f04378104c22133371907bd388e2097682cfd261798297f8b75ab9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "lucy.bell",
+      "displayName": "Lucy Bell",
+      "email": "lucy.bell@mavens.com",
+      "groups": [
+        "data_team",
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b44b734945dbf745:eb6e27394f6fa41f8eee273020a2dc74879741c62a81f87b079f6392410cb7e6cdcce8ac05a4bd510796ad32168d26f3b228a084b779faa191ac0adfd79219c7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "bethany.easterman",
+      "displayName": "Bethany Easterman",
+      "email": "Bethany.Easterman@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "search"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e4f27d682d71f391:7c2c211c630686d0c1b557bb6afbe05ba153433695e8251c3bd661807ae15c1ef86bc450161352134abe46fca80c600fa5351853c6cc1bf5bf53b71ab2d00d4c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "christi.kobierecka",
+      "displayName": "Christi Kobierecka",
+      "email": "Christi.Kobierecka@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:7235107a8cc290d0:d5c79941db10012f3dabd3272662dcd52531cbd3232a1e82d0f33f2e504c042692523a39ce1a53b771751413e69180cbc9ab99096049199cdf83a2556899cac3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "cristina.lliso",
+      "displayName": "Cristina Lliso",
+      "email": "Cristina.Lliso@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c35558007143f0ad:d49bcd8fd4078d442ac785f756496bf5d7faad2dc01358741086eb5e00badf650ef337be38837248b8d5743bc81b40f76e0697e0a939810030119dc759f3eddd",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "deepa.patel",
+      "displayName": "Deepa Patel",
+      "email": "Deepa.Patel@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:4b7c388021652be9:6a6f95cccd6129639c4473fc4f042e0139a2a31bc8c9921070631bfa20057caa7445551277d97012192c6ae6344f79ec83156425c23792e5fe1179a296d3a303",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ella.morrison",
+      "displayName": "Ella Morrison",
+      "email": "Ella.Morrison@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:1934e3dd1600a4b6:fa77f3d7e6eacfbaba4002fee096c171acbb943efc91d71360fe28b0eb547c1f3f2aceb62e8b324e79f8171cd2b242dcf09867a5b551b2085e885478f39ddd18",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ellie.bowen",
+      "displayName": "Ellie Bowen",
+      "email": "Ellie.Bowen@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e24e7061cd410d44:9dc741abc48af0a8d3d570e893dc5c163b6865a7466cd0a6dd54dcc01ca5c34f9594aab79bc27caf05cebbe2a7847b6a7a43c333e993782a75236f2dd6b6c86a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ellie.taylor",
+      "displayName": "Ellie Taylor",
+      "email": "Ellie.Taylor@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e6663879e91ff447:ef953abc8225f7711887d4e26a57574b8ebb4e4b40ae018937b406fd84696bbf4bddca6a2a69ca71590a85bd12a1feb6036be8bed97228ef6e663b77b8bf3de3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "emma.zaini",
+      "displayName": "Emma Zaini",
+      "email": "Emma.Zaini@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e72f012be3af8cb5:4fdaac4b25a54df76dd29e662d1c9e9d710ccba75176ad1a5764fd1223f9b6a7452a424193ae949513eb1b8f787b1b9a81d3a8eb2510c2ea8d8b5dcfe151ac47",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "hayley.ray",
+      "displayName": "Hayley Ray",
+      "email": "Hayley.Ray@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0fcc8a9d53641b35:1ea17401b3b64e0839417a62fe3f6ae7037448b828d79283acf8c90a168345a7380474095300b296871b7f329be75ff917d960f48a095e86c94b8b41909b0f38",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "isadora.cook",
+      "displayName": "Isadora Cook",
+      "email": "Isadora.Cook@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e2fd3465447232cf:89aa0bd521bcfd05e6b737d058e1f29721f036848d6ed77baa2de759dd297baef7fa93a60602b586936f9920a9632b447f815a2342fef61acbdd3ba2b61c3688",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "jasmine.patel",
+      "displayName": "Jasmine Patel",
+      "email": "Jasmine.Patel@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3a39bcded91afed8:0aca67a6e647be3d437e2141f7ae69965868cf5c9c7d201d75bbd749edadfe24648b1f992eeeaf04fa632a68ac04c8f5f846f5871bfe3998d53570f5130ad1bb",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "javier.gutierrez",
+      "displayName": "Javier Gutierrez",
+      "email": "Javier.Gutierrez@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:46f4765391c10eed:abf3f734b2fbe1855fee3f97dce74921c3574784b06bb44e908c8ed508f5ea03eee0c79255da4176a1433b0b646b3df7085165f130acda9e1dc4e935d5abc259",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "joe.bee",
+      "displayName": "Joe Bee",
+      "email": "Joe.Bee@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3b2b383a911e6cac:e36105ff762c6669cbd38c00a4de94244a4a32092467400dbf2b9348b354a9fbcd6307efa80f455c4fb1678c1bfc7bd5dae5ee7b89e1be1cc495c19e5f912a71",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "laurie-anne.wright",
+      "displayName": "Laurie Anne Wright",
+      "email": "Laurie-Anne.Wright@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:622237d6b6c6b3ab:fe20d138125cef575f1ca2c9bc6e231de0345eafdf6592b0e834819cfa7ee93b0e9ff961563f2cfea162992549114e1466c455f0946b2d8eaa7e775d815d9a28",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "daria.volchenko",
+      "displayName": "Daria Volchenko",
+      "email": "Daria.Volchenko@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f11cc3803aefc2e1:2389653b300ba73040d4b0fe1dde640248b16d3a691f7a60b321189a8fb2e0f73f90b9d770f9b992768191fc2b689f6fd8ee035d0cae6108f2ebe3dbf21d490c",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "david.newman",
+      "displayName": "David Newman",
+      "email": "david.newman@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:60fc8e7946743984:b90f886f3ea363f129d07b40f8824ad25dfdc249291a691623967cc45df690e91e710689d2db232c5cba2cc88690f6864e384d045231043c2984c763f857be5f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "javier.schiaffino",
+      "displayName": "Javier Schiaffino",
+      "email": "Javier.schiaffino@mavens.co.uk",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0739322874456162:83c8485d01740a37b31df162f98fa0122677f7cac0e653c7746b06f2436dc27a33b5aeecdd3aefe1844ad4c2db74c0b0b94ff5f3357de972f7b56a789da1524b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ryan.healy",
+      "displayName": "Ryan Healy",
+      "email": "Ryan.Healy@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:b67694e9dbf9509b:37cd54ad6441a6cfa0266c363441e3beff11b1d6357c2e6e48b40388beb889b1b356b152b10538f97eb1d21bd5c6998479b4077f8dbf8be1e407f7ce63f13344",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Maija.Antila",
+      "displayName": "Maija Antila",
+      "email": "Maija.Antila@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0bb38f29754f7271:fffe27d9bd630655d4fe0c05442683732dce7736d6cb9309713174678e267cb41cc6f7e1c9af7506ed7e4ea86363016bd80e8b53de3775f64860c973cfc46d44",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "anton.kanishchev",
+      "displayName": "Anton.kanishchev",
+      "email": "Anton.kanishchev@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d4e7b5faf7755d5e:b39cc9317a1fee41163ac62f5cbfc7f757d8637ecc43ceb98af1c7689743d2bfa26b548b72d13dcf30cc464ca9599acacb3a4c8a93203a123c402188b3bbe791",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "hugo.jeavons",
+      "displayName": "Hugo Jeavons",
+      "email": "Hugo.Jeavons@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:76100b7f072d959d:a93490af5344a369df29fbb2724f5c58f131dc362b5b78d6bf726ebfc44ca05289e09755e463a13c20a31908042e6fbaf12b4b73d0649b9d8e55d0bb55d06aa5",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "bashir.ali",
+      "displayName": "Bashir Ali",
+      "email": "bashir.ali@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:538f22f961efa9bf:0d32a5d8fc73ec21a35e053eb84774f29210f3998291474313689400fe3c9aff9b93d2f5572ed4a2671b9770bff90fa7e31ed511608d0fadead36ee4f729aade",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "patrick.hauwe",
+      "displayName": "Patrick Van Hauwe",
+      "email": "Patrick.Van-Hauwe@unilever.com",
+      "groups": [
+        "xx_pc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:acbd9dc10a2184a6:574adb580878e0275c36ba9e038603d4b08817d38590c9626ce9367056f5489866175cb450787ebd41b38590ca9331d6dbd1c77601a5858f795d05291c04343d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "nuno.barbosa",
+      "displayName": "Nuno Barbosa",
+      "email": "Nuno.Barbosa@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6b0eb36376494ac1:1078ea5907724c35d315ddf70ca48cd69b292fae8bb9190d754dfc0b49a4a1daaa2cb6224b3b89985fcd229704f1b24e35b394ad7865c6512d0f899f78bc7862",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "freek.vrijhof",
+      "displayName": "Freek H Vrijhof",
+      "email": "Freek.H.Vrijhof@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:62063db51201ac53:cd94f58a2ceea0e1d581a1e6a8f7ea3cc49e9132e51c2e07dba72260c8c9d08d8d6f2726dc91a9c74ded2644102a3a7e07871b184077fd7536ce1e620834c3c0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dnyaneshwari.kataria",
+      "displayName": "Dnyaneshwari Kataria",
+      "email": "Dnyaneshwari.Kataria@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:60d93f75fcc19dd4:e420501a1666a58309fb416ca182612077d1645a6dd12e1191a7ccf1987a83dac288b69cf328f5ee3eebc79b59e8b8a80fd8f919b73c96874a8eccc38e56047f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "yasamin.alabaf",
+      "displayName": "Yasamin Alabaf",
+      "email": "Yasamin.Alabaf@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d7c7da4f6025297a:88f587d6bf180ff62a5ad426f6e905b79f29fcab0f7a3ec104e7604f0348ed6a88e8e8902a575274183fb4a0e0df1648942211bacb68307842a531abf4832c90",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "youssef.kalai",
+      "displayName": "Youssef Kalai",
+      "email": "Youssef.Kalai@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3036645953d6ee63:2f209774add51e9a3eb8e18a1143b1a29fc724fbf55794d108005c2ddb5ed3fc57629a5be5e88245200a359294e6a1957e2eb972aa641ca2b1773c5fabe88007",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "anna.jankowska",
+      "displayName": "Anna Jankowska",
+      "email": "Anna.Jankowska@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b04c4b32073a8398:9bcdc6d0eaa1fee7caf1715124f6eec023175cec6a6a826f500b6860bd2a12f91b34214b9661f1f87b4d761458641c97bd13749eff17ccfff7239eec375616ec",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "alex.luckett",
+      "displayName": "alex.luckett@capgemini.com",
+      "email": "alex.luckett@capgemini.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "uk_pdc",
+        "code_env_admin"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:180326af2e5fe044:cc87e209f10e9b7fd774b956c12e51bafe0bfa13f3caca69c1b26e8ed0545054b996af44b681b038932625bd7076841bf84ffb1845437ad745e7883118d22975",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "tarek.elnagdy",
+      "displayName": "Tarek Elnagdy",
+      "email": "Tarek.Elnagdy@unilever.com",
+      "groups": [
+        "xx_ref",
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:1f1df25ec53a264e:9edd3511588faad2314bf92679d06947e79bfd48101c46c4475a04e02093980ae11b24d63a42973c55e4863f529bfe6ff1cec045ac180ffdd2a9413b1478c00d",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "aimee.townshend",
+      "displayName": "Aimee Townshend",
+      "email": "Aimee.Townshend@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:8c104eebdb1a6ca7:f5905bf1034551b207582d92b4363e059c89f37ee90488179dd372b00da30a3941c37ca9c56cdfc789fe0a75f6ab057ee6faf7454180a17e2d01f8952564f34f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sean.slattery",
+      "displayName": "Sean Slattery",
+      "email": "Sean.Slattery@benjerry.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:edc675715a48ac99:8ed8c8f8bd7a7aa7168b1f02fd43d9cc06a7961c19c5b2707bf2675918418ccfa058cbf19f6d06a94ec4266a871bd8696c22fc2f6c3f61f36ea7d346e67299e0",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "chris.halls",
+      "displayName": "Chris Halls",
+      "email": "chris.halls@capgemini.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:f9f4e07c68eeecc5:286619d09e088dbc99730e9442c7471b0e34519c511c31bfac381c51b1fa78ba19e723b4c938f892906fbf9cb5107918c71bcc7a746d52635d9b6d2f4d7ded44",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "matthew.byrne",
+      "displayName": "Matthew Byrne",
+      "email": "matthew.byrne@capgemini.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:4222cb4da4fa0cd4:0cf695beba9cd0da0f78132bab8f6bcda0a69c1795105edbf4712375f00e440c838822cba58339cdcb5766b0b543b53059e67d5d7bc69c7a4bed56985b76622b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ryan.lowers",
+      "displayName": "Ryan Lowers",
+      "email": "ryan.lowers@capgemini.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:2633fc1bbfbb6667:6b85bd1c1fba7194911fa0c2a75d443ddb8c57fba9ee346b44ec74824083a0c7b220f5b9f38bb6dce964ab376e64c8b82debfde7fe7fbd6797434e3c21dddfe6",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "sahil.kothary",
+      "displayName": "Sahil Kothary",
+      "email": "Sahil.Kothary@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:9178ccec10dcf85b:5ee5ed614dfa4860d2e74a5c69c916d358b05c3b9205297a15daa669bc46c09ff927715148525dcd64384677f7c1b446907aa37d7606b69bd3aca1f1274cbbc9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "ragbere.singh",
+      "displayName": "Ragbere Singh",
+      "email": "Ragbere.Singh@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:4ac8a38872cc4846:aab69b98c70e9cf5a3007190721c10ff02429048a6e572c25ad7367845545238a5ddbda0962158ea621963a7e87a992b14aea32a98869d0218064ccbfdb3f1f3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "Dilbag.Sokhi",
+      "displayName": "Dilbag Sokhi",
+      "email": "Dilbag.Sokhi@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:05e5e2d95f5b2918:999bede8e0d81a17cf1dc64590948d56ec9b0bf04a72f79a2cafa3387fb164ea18059ebc0ed8b3c2524135b1657d6b188bab5e04d714a13fc14c825da8685cad",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "lily.ryan",
+      "displayName": "Lily Ryan",
+      "email": "lily.ryan@mavens.co.uk",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:b7864a5296939748:526914c65ad707bbb971d197710fd7167211b02bdc94f556776f3a8937c8f10f8a40fc2d407bddaf91b9e40c31474963adbb11c8bd07658794c1f3d35ca2ec59",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "hidde.schwietert",
+      "displayName": "Hidde Schwietert",
+      "email": "Hidde.Schwietert@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:d9a4c3f2f4f774ca:5a8c20ca55a7e06517c0416546bc445ba21f5f608c141c2b47b5fef7a1daca41f42135796a9b1c59d65541db8f48eb7a2f9840cb9d0c6ceb809cc0cecf64bd9e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "shivum.taank",
+      "displayName": "Shivum Taank",
+      "email": "Shivum.Taank@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:165466930f7c7de1:d4b3bcf3f77b41dab8f743968a3fe3aabf5151a73930acddbf9dbbba1f94c6e3c65a4bbe5142c6be2c928a994c6230aabc3ff58b7aafaeafc4e39a94453e459e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mohamed-syamin.musa",
+      "displayName": "Mohamed-syamin bin mohamed musa",
+      "email": "mohamed-syamin.bin-mohamed-musa@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:dad0ce9160798f17:315f203123bf4eef2a701283880ba0d3c00f103034ed090c35ad080f8dbee3df51400289764465f4d4a1fb5f8e4e435142c1df750ef93bea4d5df0f65de2b4d8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "arpita.samanta",
+      "displayName": "Arpita Samanta",
+      "email": "Arpita.Samanta@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:290dd0a940ba4d4c:7b7fa9156624e3326886daa3ebe62461541dc6a7ffa011acec7712e4a85529e473cb9a794428f5500f7b597c69e0b55fc48d65b7f3f7ef5c9a35f848a8783348",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "karen.ramos",
+      "displayName": "Karen-Fabara Ramos",
+      "email": "Karen-Fabara.Ramos@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:3c46c34cf0f539d9:8eaeea00a0ee50a98e9ba4f001e89a499b192ac19bc88f282ab1fdad0caddaad3721e27f968cfe42f3e1062ee722323629021445492d6836e1ad95f1ea543786",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "satakshi.nigam",
+      "displayName": "Satakshi Nigam",
+      "email": "Satakshi.Nigam@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:bc02cefd05c536d3:7041d6836742d95238922db4dcdd7606752f3943495056a1ada414a92ed4b03a77d7ed6a0d7606c80e063b8a277601fc07c6c99260477a734b5d0068de656172",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "esha.nakhasi",
+      "displayName": "Esha Nakhasi",
+      "email": "Esha.Nakhasi@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:44b019fb9a9f451c:5cad68e1cba12698997386320524a14539b890c42ca049219a257b0a1bec5d60b513911c7c844660eb7d15647bb3f6e806e35a55ffe5db8698604c1ea393129e",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "bharat.gajra",
+      "displayName": "Bharat Gajra",
+      "email": "Bharat.Gajra@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:03fc36bf6c4bfc79:0d5badfac7d67ff98c17ad53c3cd43c21c02f215c29b012913bddfb3f26de5ae63d96d62d5364e8280b98a344844b4f1248b7c328d17f0cac395febe5cb44a87",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "chaitali.karnik",
+      "displayName": "Chaitali Karnik",
+      "email": "Chaitali.Karnik@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:5e93d8b28f5d8053:ffc0c617389507ac30fa53e4ff94ed18f263d75e2d4d9ee28d8c1039d9c1e3491c7985b833015df0f5d91a89934a4dc325ffef27ffd8ae64abf1adaaf454ed2f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "maha.khlifi",
+      "displayName": "Maha Khlifi",
+      "email": "Maha.Khlifi@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:c3c695045a8367e5:87f15967281003308bfca31d395e0607da4975d2c08abd75fe51017927b209e1f05adbc22fb099a9bcb8f360bfafe48187738eae818faa0389e13e1d4c63c639",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "galit.jakoby",
+      "displayName": "Galit Jakoby",
+      "email": "Galit.Jakoby@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:acb65095a60f37e9:5895032bfa8744fbf52a784e14218688f1ed90f5e3ff4727458071fd716824fba0f8f2f96248dd61bd013e6428f8edb06300fde4d43104e8516989c218dcf503",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mary.obusan",
+      "displayName": "mary katherine obusan",
+      "email": "mary-katherine.obusan@unilever.com",
+      "groups": [
+        "seaa_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:2d6756489c611255:91e7d53abcceacedca8c1761b71008605c27e47af27da56d142b28e3c20b2c63dc72c2a57ce95402e95bcd88d8d39cd4081b7c90575602d3c1a3840cbbddc73a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "samit.das",
+      "displayName": "Samit Das",
+      "email": "Samit.Das@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:5310acbde2448ee5:b15de24690711b747ade35e1373c4f8711050a9b790f397d7d431a13240e6e76695c7936a3d5a099f5e43edf4f0b381bdc9137075cb44bbafe5f86d13d699ed3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "dhritiman.roy",
+      "displayName": "Dhritiman Roy",
+      "email": "Dhritiman.Roy@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:a3ac4377d591bef4:25fe2b7b74b93b1a0bd67e868503da61d4e595ae1c90fa50d845e8be36c07cb9f927686c754f8626b1e6832ccf83e07bf9bdd0c3785ecc953ee7cd46dd5ed431",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "debi.ives",
+      "displayName": "Debi Ives",
+      "email": "Debi.Ives@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:e48a4bfba0133439:8091ed5194f0fb887757b035e94cb3cbf95c3ab108c5848384d7a77188c1eb5376a7650eef7f363b92436e00ae2120c3b5ee82eaf455371e767e3e4c6e5c4258",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "araba.sagoe",
+      "displayName": "Araba Sagoe",
+      "email": "Araba.Sagoe@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6eaab3b024a69aa2:fd760535c2a5aa9a5fcab56f872aa277ee934b6d4d8f963feb0ad9b2734105f742e44a10a97d30a28ce62d4debfb5f6f58e87e51b66b931af470b60cafa52cd8",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "silvia.beritognolo",
+      "displayName": "Silvia Beritognolo",
+      "email": "Silvia.Beritognolo@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:bf4bcb3b618c97b2:7b0639346d6c3e973d86ddb5b40c175741b40ba69584309fddfbee225e1a3998e21ba9994249704ec795ef0b82c36c64566bb5959116bf3b6021c53022f816a9",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "john.little",
+      "displayName": "John Little",
+      "email": "John.Little@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:fc109a3c4b567a5a:42f6e60dbd6e6a49a28cc9ada42d5196513212be8d979c840fb1f211c96873e6bdc2cf15a01b74f015e6fd9747133a6d722e94e46fc4b054e552e1b78520e31a",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "renjith.nair",
+      "displayName": "Renjith Nair",
+      "email": "Renjith.Nair@unilever.com",
+      "groups": [
+        "in_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:50ff382b11d5fdff:b513cfcf8fa75795c8dbb75cdabfff0cea7d4f989bfb3adb7ee45eb555e3eb6606bc7ba0e9632853b826f586003991365c2f2320f7927343d9569a23587695bb",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "laura.kreuk",
+      "displayName": "Laura kreuk",
+      "email": "laura.kreuk@unilever.com",
+      "groups": [
+        "administrators",
+        "data_team",
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:79d3fe2e054331da:86bf745c86b8416ed735c7de1aa16236c2ec6ed62be57006afab616b04fe55fb088fc7c8e430e9da8bd50571145982abe70f23e4e33aea0d4acf6fcef05b1e3f",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rosa.lima",
+      "displayName": "mav-rosa lima",
+      "email": "mav-rosa.lima@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:28c442dd55e56651:3f0d06c1a67a9c31639a355984daa020e71a4e53e1de5c26a90cf9e4b6b7ec5bd9dbfdaf74e1dc41fd6a0cd56aeebbe970a6fd52aebc85b7b2c51c2c04cf20c1",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "aleyde.costa",
+      "displayName": "mav aleyde costa",
+      "email": "mav-aleyde.costa@unilever.com",
+      "groups": [
+        "latam_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:22cdc1875c50922c:0ea6b0c405b9390365545925d7c7751f8cad8a76d31af2fb06c631230d085742c132009b808ba8df7b75b18849c363a0f6b983fbf5734e4a9c064bdd71a38382",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "peter.capsalis",
+      "displayName": "Peter Capsalis",
+      "email": "Peter.Capsalis@unilever.com",
+      "groups": [
+        "uk_pdc",
+        "xx_food",
+        "xx_ref"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST_ADVANCED",
+      "password": "pbkdf2:10000:b38458906343df40:aa3a81bf6fb281d33b518fc64f0d43ae8a88337d5c7e0bfd6c46f9d27644b80279d99791b16c8dc3d2306ac30fb885a771cafc146ec9a796a5f93f171539bf66",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "david.neave",
+      "displayName": "David Neave",
+      "email": "David.Neave@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:8bb03d397812d7df:e0a775a53133d72a8360d2dcd759dda70e88cc1553da6a94f601e8f480a3b14679b0c01db2ac9cf26d99de8b8a9a1f01abdb7dfd915f44923fe8bb119908fd57",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "robert.doyle",
+      "displayName": "Robert Doyle",
+      "email": "Robert.Doyle@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:b684274853c418be:ffe6bc6a57ff75272c3bfb33ec2e8f76d21d1bc544bf9c27e5b29f45ef87dbfcd4d6469028e63fc8bb500d767cc0eca2f8fefd10b5683085444dd569c60c9e7b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "joe.portman",
+      "displayName": "Joe Portman",
+      "email": "Joe.Portman@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:0c0a03be7fad32a7:455efffe34ca488c0d7ece6453feff0d101e0dc117c19cec72f10c8758a89836879b0b84f6a7442e0558f9da65b4e59e06d55f5646b4d72e8f27d7bebe3af992",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "rahul.potdar",
+      "displayName": "Rahul Potdar",
+      "email": "Rahul.Potdar@unilever.com",
+      "groups": [
+        "eu_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:6476807ee0ccec0c:d0410ef11e751e1e6801835cc8aaa802351de45e258f1822033132d43db85bb55accec7ff5eadec4c70992a79822184c4b102b64dc2ee10518a402dd3e4806a7",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "anthony.thomas",
+      "displayName": "Anthony Thomas",
+      "email": "anthony.thomas@unilever.com",
+      "groups": [
+        "administrators"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:7c6e19681ed191a9:7759f146a039225f9520af0fbf3b951ddbc506e1eedcde331b68b52f0646fb0243ad7773ea04bc858d2bbd0babd4d12ced950b59f344bfc41ae9212eee183775",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "joe.sack",
+      "displayName": "Joe Sack",
+      "email": "Joe.Sack@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:866df34e8d351993:4cd2e50c4adeeb22586c67a054e47728e7a3a4f69785ca71e781a06e7076b92b5487a190c2e788d788d23ff52c814045af284051e300314cca9f28cb96fb42a3",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "roxanne.markus",
+      "displayName": "Roxanne Markus",
+      "email": "Roxanne.Markus@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:ada2b7e3664fb903:34220ee609bc339a1229836ff13176227ebed3ed9359d80ea8a4f5bfd532f1e32def31c519bc6334ed4676bc5faf061c931b9709b2940eed3c2a82f4ee9c18a5",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "gareth.beeks",
+      "displayName": "Gareth Beeks",
+      "email": "Gareth.Beeks@unilever.com",
+      "groups": [
+        "uk_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:5a756fbc4d3831a9:c945e291a21daf913bc38be3b2c84ea59f422dc8ecac5dcd2840bffcb4d362f5a1d31f8814aabebc3de11c3c3de7a11e12d0d1ec54a698f4dd9f5cfc7abde995",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "mariette.niekerk",
+      "displayName": "Mariette van-Niekerk",
+      "email": "Mariette.van-Niekerk2@unilever.com",
+      "groups": [
+        "administrators"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_SCIENTIST",
+      "password": "pbkdf2:10000:96da6f43f90fe85c:250a3014b59274033ec230b7631fa17d732a37b3952876c22d90ac42a99908288c9c74b0f7a48ff2a05d63f916d46991b5f9ff9333e7c44f065fadebd12b1496",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "arti.rajvaidhya",
+      "displayName": "Arti Rajvaidhya",
+      "email": "arti.rajvaidhya@unilever.com",
+      "groups": [
+        "data_team"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:fe37b5830f210745:9a03c23637c72e5999c879713630db195112e6c3ebc133faca80d47d110d981c53935181d497c615828c80884cc497e604e7c34783edda0b3d4b4d68d8a289e1",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "nisha.shah",
+      "displayName": "Nisha Shah",
+      "email": "Nisha.Shah@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:91e6024bae5f206d:c8ec74742e354adbf4b0ff748d6ac8f5b80f2baa4a97db4db14976977a6b3894194cfb29bda409930740afa3eaecf29ae3873d71f5b4256a3004a33efdf0ba2b",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "hong.zou",
+      "displayName": "Hong Zou",
+      "email": "Hong.Zou@unilever.com",
+      "groups": [
+        "na_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "READER",
+      "password": "pbkdf2:10000:9dfc326b4295c0f9:2b33b96453844614a724d183f932f0081e427d4e357d843c52291fdfd5f3b97509fcee0ef5d787578ee57aa93b15469de9a3dd3107088ff89b78bc3efd810f88",
+      "connectionCredentials": {}
+    },
+    {
+      "login": "nahla.nasser",
+      "displayName": "Nahla Nasser",
+      "email": "Nahla.Nasser2@unilever.com",
+      "groups": [
+        "namet_pdc"
+      ],
+      "sourceType": "LOCAL",
+      "userProfile": "DATA_ANALYST",
+      "password": "pbkdf2:10000:95c0770fb3880c89:0c878bff2f8ee875acb4a4d3040e365fc2fae4b36b697fe33934145c1abda2b519e92406320486fd6dee19e647e24eba37a57687daf83a20c096eeaf4310dab9",
+      "connectionCredentials": {}
+    }
+  ],
+  "groups": [
+    {
+      "name": "administrators",
+      "description": "Default group for DSS administrators",
+      "sourceType": "LOCAL",
+      "admin": true,
+      "mayManageUDM": false,
+      "mayCreateProjects": false,
+      "mayWriteUnsafeCode": false,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "data_team",
+      "description": "Default group for DS to create new connections and manage meanings",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": true,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": true,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "readers",
+      "description": "Default group for dashboard-only access",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": false,
+      "mayWriteUnsafeCode": false,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "xx_domestos_unicef",
+      "description": "Global Domestos UNICEF project",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "uk_pdc",
+      "description": "User group for UK PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "xx_pc",
+      "description": "User group for Global Personal Care Category PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "xx_hc",
+      "description": "User group for Global Home Care Category PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "xx_food",
+      "description": "User group for Global Food Category PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "xx_ref",
+      "description": "User group for Global Refreshments Category PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "na_pdc",
+      "description": "User group for NA PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "in_pdc",
+      "description": "User group for India PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "eu_pdc",
+      "description": "EU PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": false,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "seaa_pdc",
+      "description": "User group for SEAA PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": true,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "namet_pdc",
+      "description": "",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "latam_pdc",
+      "description": "LATAM PDC",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "search",
+      "description": "Group for users with permissions to modify the search keyword repository",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": true,
+      "mayWriteUnsafeCode": true,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "nlp_uk",
+      "description": "nlp group",
+      "sourceType": "LOCAL",
+      "admin": true,
+      "mayManageUDM": false,
+      "mayCreateProjects": false,
+      "mayWriteUnsafeCode": false,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": false,
+      "mayViewIndexedHiveConnections": false
+    },
+    {
+      "name": "code_env_admin",
+      "description": "Users which manage code environments",
+      "sourceType": "LOCAL",
+      "admin": false,
+      "mayManageUDM": false,
+      "mayCreateProjects": false,
+      "mayWriteUnsafeCode": false,
+      "mayWriteSafeCode": true,
+      "mayCreateAuthenticatedConnections": false,
+      "mayCreateCodeEnvs": false,
+      "mayDevelopPlugins": false,
+      "mayEditLibFolders": false,
+      "mayManageCodeEnvs": true,
+      "mayViewIndexedHiveConnections": false
+    }
+  ]
+}

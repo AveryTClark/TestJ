@@ -1,0 +1,19 @@
+{
+  "type": "NON_RECURSIVE_FORCED_BUILD",
+  "projectKey": "CHRISTERADATAEXTRACTTEST",
+  "id": "Build_aam_bulk_extract_only_folders_2018-03-29T12-39-58.622",
+  "name": "Build aam_bulk_extract_only_folders",
+  "initiator": "chris.halls",
+  "triggeredFrom": "RECIPE",
+  "recipe": "compute_aam_bulk_extract_only_folders",
+  "initiationTimestamp": 1522327198622,
+  "mailNotification": false,
+  "outputs": [
+    {
+      "type": "DATASET",
+      "targetDatasetProjectKey": "CHRISTERADATAEXTRACTTEST",
+      "targetDataset": "aam_bulk_extract_only_folders"
+    }
+  ],
+  "refreshHiveMetastore": true
+}
